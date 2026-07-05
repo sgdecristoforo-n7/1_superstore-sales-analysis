@@ -1,80 +1,423 @@
+----- ENGLISH -----
+
 # Superstore Retail Sales Analysis
 
 ## Project Overview
 
 This project analyzes retail sales and profitability using the Superstore dataset.
 
-The goal is to identify sales and profit patterns across product categories, regions, customer segments and discount levels.
+The goal is to prepare a clean analytical dataset, organize it into a simple star schema, import it into PostgreSQL, and run basic SQL queries to support business analysis.
 
-## Business Questions
+The project is designed as a Junior Data Analyst portfolio project and focuses on:
 
-- Which product categories are the most profitable?
-- Which regions generate the highest and lowest profit?
-- How do discounts affect profitability?
-- Which products and customers contribute most to sales and profit?
-- How do sales and profit evolve over time?
+* data cleaning with Python and Pandas;
+* data quality checks;
+* anomaly analysis;
+* star schema modeling;
+* PostgreSQL table creation;
+* SQL validation and basic business queries;
+* future Power BI dashboard development.
+
+## Business Problem
+
+The business context is based on a retail company that wants to better understand its sales and profitability.
+
+The main business concern is that discounts may be increasing sales while reducing overall profitability.
+
+The analysis focuses on questions such as:
+
+* Which product categories generate the highest sales and profit?
+* Which regions perform better or worse?
+* How do customer segments differ in terms of sales, profit and average discount?
+* Are there data quality issues that could affect the analysis?
+
+## Dataset
+
+The project uses the Superstore Sales dataset from Kaggle.
+
+The original dataset is a flat CSV file containing sales transactions with customer, product, order, shipping, sales, quantity, discount and profit information.
 
 ## Tools Used
 
-- Python / Pandas: data cleaning and preparation
-- PostgreSQL: relational modeling and SQL analysis
-- Power BI: dashboard and data visualization
-- GitHub: project documentation and version control
+* Python
+* Pandas
+* PostgreSQL
+* DBeaver
+* SQL
+* Power BI
+* GitHub
 
-## Project Structure
+## Repository Structure
 
-data/
-notebooks/
+```
+superstore-retail-analysis/
+│
+├── README.md
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── docs/
+│   ├── data_cleaning_notes.md
+│   ├── data_model.md
+│   └── sql_analysis_summary.md
+│
+├── notebooks/
+│   └── 01_data_cleaning_and_modeling.ipynb
+│
+├── sql/
+│   ├── 00_create_tables.sql
+│   ├── 01_table_checks.sql
+│   ├── 02_join_integrity_checks.sql
+│   └── 03_basic_business_queries.sql
+│
+├── powerbi/
+│
+└── images/
+```
+
+## Data Cleaning and Preparation
+
+The data cleaning phase was performed using Python and Pandas.
+
+Main activities included:
+
+* loading the original CSV file;
+* inspecting the dataset structure;
+* checking data types;
+* checking non-null values;
+* reviewing key transactional and descriptive fields;
+* managing file paths with a reusable loading function;
+* converting date fields for modeling purposes;
+* preparing the dataset for relational modeling.
+
+A detailed explanation is available in:
+
+```
+docs/data_cleaning_notes.md
+```
+
+## Product ID Anomaly Analysis
+
+A relevant data quality issue was identified in the relationship between `Product ID` and `Product Name`.
+
+Some Product IDs were associated with more than one Product Name.
+
+The analysis found that:
+
+* 32 Product IDs had more than one associated Product Name;
+* each anomalous Product ID had a maximum of 2 associated Product Names;
+* 343 rows were linked to Product IDs with non-unique Product Names.
+
+Two possible scenarios were explored:
+
+* Scenario A: keep the Product Name with the highest number of occurrences;
+* Scenario B: keep the Product Name with the lowest number of occurrences.
+
+Since no reliable business rule was available to determine the correct Product Name, the final analytical dataset was created by excluding rows related to anomalous Product IDs.
+
+This conservative choice was made to avoid introducing arbitrary assumptions into the analysis.
+
+## Data Model
+
+After cleaning and anomaly handling, the dataset was transformed into a simple star schema.
+
+The model includes one fact table and three dimension tables:
+
+* `fact_sales`
+* `dim_customers`
+* `dim_products`
+* `dim_date`
+
+The fact table contains transactional sales data, while the dimension tables contain descriptive information about customers, products and dates.
+
+More details are available in:
+
+```
+docs/data_model.md
+```
+
+## PostgreSQL and SQL Analysis
+
+The cleaned and modeled tables were exported as CSV files and imported into PostgreSQL.
+
+The SQL section includes scripts to:
+
+* create the PostgreSQL tables;
+* define primary keys and foreign keys;
+* check the number of rows imported into each table;
+* verify join integrity between fact and dimension tables;
+* run basic business queries on sales, profit and discounts.
+
+SQL scripts are available in:
+
+```
 sql/
-powerbi/
-docs/
+```
 
-## Data Preparation
+The SQL analysis includes:
 
-The original dataset was cleaned using Python and Pandas.
+* sales and profit by product category;
+* sales and profit by region;
+* average discount, sales and profit by customer segment.
 
-Main steps included:
+More details are available in:
 
-duplicate checks;
-missing value checks;
-data type correction;
-text normalization;
-Product ID anomaly analysis;
-creation of a star schema.
-Data Model
+```
+docs/sql_analysis_summary.md
+```
 
-The cleaned dataset was transformed into a star schema:
+## Power BI Dashboard
 
-dim_customers
-dim_products
-dim_date
-fact_sales
-    note: fact_sales is a transactional fact table derived from the cleaned dataset and does not use a synthetic primary key in this version of the project.
+The Power BI dashboard is planned as the next step of the project.
 
-## SQL Analysis
+The dashboard will be used to visualize:
 
-SQL queries were written in PostgreSQL to validate the model and perform business analysis.
+* total sales;
+* total profit;
+* sales and profit by region;
+* sales and profit by category;
+* customer segment performance;
+* discount impact;
+* time-based sales and profit trends.
 
-Main analyses include:
+## Current Project Status
 
-table row checks;
-join integrity checks;
-sales and profit by category;
-sales and profit by region;
-profitability by customer segment;
-discount impact analysis;
-top and bottom products by profit;
-monthly sales and profit trend;
-top customers by sales.
+Completed:
 
-## Dashboard
+* data cleaning and preparation;
+* Product ID anomaly analysis;
+* final analytical dataset creation;
+* star schema creation;
+* CSV export;
+* PostgreSQL import;
+* SQL table creation scripts;
+* SQL validation scripts;
+* basic SQL business queries;
+* project documentation.
 
-A Power BI dashboard was created to visualize the main KPIs and business insights.
+In progress / next steps:
 
-Key Insights
+* Power BI dashboard;
+* final business insights;
+* dashboard screenshots;
+* final project polish.
 
-To be completed after final Power BI analysis.
+## Notes
 
-Repository Status
+This project is intentionally focused on clear, explainable steps suitable for a Junior Data Analyst portfolio.
 
-Project in progress.
+The SQL section avoids advanced techniques that are outside the current scope of the project and focuses on core concepts such as table creation, joins, grouping and aggregations.
+
+----- ITALIANO -----
+
+# Analisi Vendite Retail Superstore
+
+## Panoramica del progetto
+
+Questo progetto analizza vendite e redditività retail usando il dataset Superstore.
+
+L'obiettivo è preparare un dataset pulito, organizzarlo in un semplice schema a stella, importarlo in PostgreSQL ed eseguire query SQL di base a supporto dell'analisi business.
+
+Il progetto è pensato come portfolio per una posizione da Junior Data Analyst e si concentra su:
+
+* pulizia dati con Python e Pandas;
+* controlli di qualità del dato;
+* analisi delle anomalie;
+* modellazione a schema a stella;
+* creazione tabelle in PostgreSQL;
+* validazione e query SQL di base;
+* successivo sviluppo dashboard in Power BI.
+
+## Problema di business
+
+Il contesto business riguarda un'azienda retail che vuole comprendere meglio vendite e redditività.
+
+Il sospetto principale è che gli sconti possano aumentare il fatturato ma ridurre la marginalità complessiva.
+
+L'analisi si concentra su domande come:
+
+* Quali categorie prodotto generano più vendite e profitto?
+* Quali regioni performano meglio o peggio?
+* Come si comportano i segmenti cliente in termini di vendite, profitto e sconto medio?
+* Esistono problemi di qualità del dato che possono influenzare l'analisi?
+
+## Dataset
+
+Il progetto utilizza il dataset Superstore Sales da Kaggle.
+
+Il dataset originale è un file CSV piatto contenente transazioni di vendita con informazioni su clienti, prodotti, ordini, spedizioni, vendite, quantità, sconti e profitto.
+
+## Strumenti utilizzati
+
+* Python
+* Pandas
+* PostgreSQL
+* DBeaver
+* SQL
+* Power BI
+* GitHub
+
+## Struttura del repository
+
+```
+superstore-retail-analysis/
+│
+├── README.md
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── docs/
+│   ├── data_cleaning_notes.md
+│   ├── data_model.md
+│   └── sql_analysis_summary.md
+│
+├── notebooks/
+│   └── 01_data_cleaning_and_modeling.ipynb
+│
+├── sql/
+│   ├── 00_create_tables.sql
+│   ├── 01_table_checks.sql
+│   ├── 02_join_integrity_checks.sql
+│   └── 03_basic_business_queries.sql
+│
+├── powerbi/
+│
+└── images/
+```
+
+## Pulizia e preparazione dei dati
+
+La fase di pulizia è stata eseguita con Python e Pandas.
+
+Le attività principali hanno incluso:
+
+* caricamento del CSV originale;
+* ispezione della struttura del dataset;
+* controllo dei tipi di dato;
+* controllo dei valori non nulli;
+* revisione dei principali campi transazionali e descrittivi;
+* gestione dei percorsi tramite una funzione di caricamento riutilizzabile;
+* conversione delle colonne data per la modellazione;
+* preparazione del dataset per la modellazione relazionale.
+
+La spiegazione dettagliata è disponibile in:
+
+```
+docs/data_cleaning_notes.md
+```
+
+## Analisi anomalie Product ID
+
+È stato individuato un problema di qualità del dato nella relazione tra `Product ID` e `Product Name`.
+
+Alcuni Product ID erano associati a più di un Product Name.
+
+L'analisi ha mostrato che:
+
+* 32 Product ID avevano più di un Product Name associato;
+* ogni Product ID anomalo aveva al massimo 2 Product Name associati;
+* 343 righe erano collegate a Product ID con Product Name non univoco.
+
+Sono stati esplorati due scenari:
+
+* Scenario A: mantenere il Product Name con il maggior numero di occorrenze;
+* Scenario B: mantenere il Product Name con il minor numero di occorrenze.
+
+Poiché non era disponibile una regola business affidabile per determinare il Product Name corretto, il dataset analitico finale è stato creato escludendo le righe relative ai Product ID anomali.
+
+Questa scelta conservativa è stata adottata per evitare di introdurre assunzioni arbitrarie nell'analisi.
+
+## Modello dati
+
+Dopo la pulizia e la gestione delle anomalie, il dataset è stato trasformato in un semplice schema a stella.
+
+Il modello include una tabella fact e tre tabelle dimensionali:
+
+* `fact_sales`
+* `dim_customers`
+* `dim_products`
+* `dim_date`
+
+La tabella fact contiene i dati transazionali di vendita, mentre le tabelle dimensionali contengono informazioni descrittive su clienti, prodotti e date.
+
+Maggiori dettagli sono disponibili in:
+
+```
+docs/data_model.md
+```
+
+## PostgreSQL e analisi SQL
+
+Le tabelle pulite e modellate sono state esportate come CSV e importate in PostgreSQL.
+
+La sezione SQL include script per:
+
+* creare le tabelle PostgreSQL;
+* definire chiavi primarie e chiavi esterne;
+* controllare il numero di righe importate in ogni tabella;
+* verificare l'integrità dei join tra fact table e tabelle dimensionali;
+* eseguire query business di base su vendite, profitto e sconti.
+
+Gli script SQL sono disponibili in:
+
+```
+sql/
+```
+
+L'analisi SQL include:
+
+* vendite e profitto per categoria prodotto;
+* vendite e profitto per regione;
+* sconto medio, vendite e profitto per segmento cliente.
+
+Maggiori dettagli sono disponibili in:
+
+```
+docs/sql_analysis_summary.md
+```
+
+## Dashboard Power BI
+
+La dashboard Power BI è prevista come prossimo step del progetto.
+
+La dashboard servirà a visualizzare:
+
+* vendite totali;
+* profitto totale;
+* vendite e profitto per regione;
+* vendite e profitto per categoria;
+* performance dei segmenti cliente;
+* impatto degli sconti;
+* andamento temporale di vendite e profitto.
+
+## Stato attuale del progetto
+
+Completato:
+
+* pulizia e preparazione dati;
+* analisi anomalie Product ID;
+* creazione dataset analitico finale;
+* creazione schema a stella;
+* esportazione CSV;
+* importazione in PostgreSQL;
+* script SQL di creazione tabelle;
+* script SQL di validazione;
+* query SQL business di base;
+* documentazione del progetto.
+
+In corso / prossimi step:
+
+* dashboard Power BI;
+* insight business finali;
+* screenshot della dashboard;
+* rifinitura finale del progetto.
+
+## Note
+
+Il progetto è volutamente focalizzato su passaggi chiari e spiegabili, adatti a un portfolio per Junior Data Analyst.
+
+La sezione SQL evita tecniche avanzate fuori dal perimetro attuale e si concentra su concetti fondamentali come creazione tabelle, join, raggruppamenti e aggregazioni.

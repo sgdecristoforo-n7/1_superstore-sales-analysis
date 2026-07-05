@@ -45,10 +45,11 @@ Data Model
 
 The cleaned dataset was transformed into a star schema:
 
-fact_sales
 dim_customers
 dim_products
 dim_date
+fact_sales
+    note: fact_sales is a transactional fact table derived from the cleaned dataset and does not use a synthetic primary key in this version of the project.
 
 ## SQL Analysis
 

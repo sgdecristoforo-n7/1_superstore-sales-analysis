@@ -1,0 +1,805 @@
+customer_id,customer_name,segment,country_region,city,state_province,postal_code,region
+dp-13000,darren powers,consumer,united states,houston,texas,77095,central
+po-19195,phillina ober,home office,united states,naperville,illinois,60540,central
+mb-18085,mick brown,consumer,united states,philadelphia,pennsylvania,19143,east
+me-17320,maria etezadi,home office,united states,henderson,kentucky,42420,south
+jo-15145,jack o'briant,corporate,united states,athens,georgia,30605,south
+ls-17230,lycoris saunders,consumer,united states,los angeles,california,90049,west
+vs-21820,vivek sundaresam,consumer,united states,huntsville,texas,77340,central
+ms-17830,melanie seite,consumer,united states,laredo,texas,78041,central
+aj-10780,anthony jacobs,corporate,united states,springfield,virginia,22153,south
+sv-20365,seth vernon,consumer,united states,dover,delaware,19901,east
+nd-18370,natalie decherney,consumer,united states,mount pleasant,south carolina,29464,south
+bd-11605,brian dahlen,consumer,united states,san francisco,california,94109,west
+mm-17920,michael moore,consumer,united states,newark,ohio,43055,east
+cs-12250,chris selesnick,corporate,united states,bossier city,louisiana,71111,south
+bs-11590,brendan sweed,corporate,united states,philadelphia,pennsylvania,19140,east
+eh-13990,erica hackney,consumer,united states,roswell,georgia,30076,south
+dl-13315,delfina latchford,consumer,united states,philadelphia,pennsylvania,19134,east
+dw-13195,david wiener,corporate,united states,springfield,oregon,97477,west
+ts-21340,toby swindell,consumer,united states,scottsdale,arizona,85254,west
+hl-15040,hunter lopez,consumer,united states,jonesboro,arkansas,72401,south
+xp-21865,xylona preis,consumer,united states,westland,michigan,48185,central
+mv-17485,mark van huff,consumer,united states,los angeles,california,90049,west
+mm-18280,muhammed macintyre,corporate,united states,smyrna,tennessee,37167,south
+tb-21400,tom boeckenhauer,consumer,united states,miami,florida,33180,south
+jw-15220,jane waco,corporate,canada,toronto,ontario,m7a,east
+sg-20605,speros goranitis,consumer,united states,lafayette,indiana,47905,central
+im-15055,ionia mcgrath,consumer,united states,las vegas,nevada,89115,west
+ca-11965,carol adams,corporate,united states,rapid city,south dakota,57701,central
+sd-20485,shirley daniels,home office,united states,alexandria,virginia,22304,south
+ej-13720,ed jacobs,consumer,united states,san diego,california,92037,west
+jc-15340,jasper cacioppo,consumer,united states,new york city,new york,10024,east
+mv-18190,mike vittorini,consumer,united states,detroit,michigan,48234,central
+lc-17050,liz carlisle,consumer,united states,mission viejo,california,92691,west
+bd-11500,bradley drucker,consumer,united states,green bay,wisconsin,54302,central
+eb-13930,eric barreto,consumer,united states,saint petersburg,florida,33710,south
+cd-12790,cynthia delaney,home office,united states,san diego,california,92037,west
+mh-17440,mark haberlin,corporate,united states,escondido,california,92025,west
+db-13270,deborah brumfield,home office,united states,san diego,california,92024,west
+nd-18460,neil ducich,corporate,united states,chesapeake,virginia,23320,south
+ck-12760,cyma kinney,corporate,united states,linden,new jersey,7036,east
+nm-18445,nathan mautz,home office,united states,north las vegas,nevada,89031,west
+ga-14725,guy armstrong,consumer,united states,columbia,missouri,65203,central
+nf-18385,natalie fritzler,consumer,united states,chesapeake,virginia,23320,south
+sc-20095,sanjit chand,consumer,united states,concord,california,94521,west
+ml-17395,marina lichtenstein,corporate,united states,seattle,washington,98103,west
+st-20530,shui tom,consumer,united states,houston,texas,77095,central
+bf-11020,barry französisch,corporate,united states,seattle,washington,98105,west
+mn-17935,michael nguyen,consumer,united states,dallas,texas,75220,central
+tb-21595,troy blackwell,consumer,united states,lubbock,texas,79424,central
+ab-10015,aaron bergman,consumer,united states,arlington,texas,76017,central
+lc-16930,linda cazamias,corporate,united states,richmond,indiana,47374,central
+sr-20740,steven roelle,home office,united states,los angeles,california,90049,west
+tm-21010,tamara manning,consumer,united states,woodstock,illinois,60098,central
+sa-20830,sue ann reed,consumer,united states,moreno valley,california,92553,west
+mg-17875,michael grace,home office,united states,el paso,texas,79907,central
+jh-15430,jennifer halladay,consumer,united states,medford,oregon,97504,west
+js-16030,joy smith,consumer,united states,columbus,ohio,43229,east
+vf-21715,vicky freymann,home office,united states,elmhurst,illinois,60126,central
+sc-20380,shahid collister,consumer,united states,el paso,texas,79907,central
+db-13060,dave brooks,consumer,united states,seattle,washington,98115,west
+gw-14605,giulietta weimer,consumer,united states,houston,texas,77036,central
+hr-14770,hallie redmond,home office,united states,new york city,new york,10035,east
+kn-16705,kristina nunn,home office,united states,new york city,new york,10009,east
+nh-18610,nicole hansen,corporate,united states,philadelphia,pennsylvania,19120,east
+js-15595,jill stevenson,corporate,united states,columbus,ohio,43229,east
+ej-14155,eva jacobs,consumer,united states,san diego,california,92037,west
+sc-20020,sam craven,consumer,united states,houston,texas,77095,central
+aj-10945,ashley jarboe,consumer,united states,wilmington,north carolina,28403,south
+ap-10720,anne pryor,home office,united states,new york city,new york,10035,east
+cl-12565,clay ludtke,consumer,united states,columbia,south carolina,29203,south
+ab-10150,aimee bixby,consumer,united states,yonkers,new york,10701,east
+cm-12715,craig molinari,corporate,united states,seattle,washington,98103,west
+np-18685,nora pelletier,home office,united states,des moines,washington,98198,west
+kt-16480,kean thornton,consumer,united states,denver,colorado,80219,west
+sw-20275,scott williamson,consumer,united states,royal oak,michigan,48073,central
+ck-12205,chloris kastensmidt,consumer,united states,columbus,ohio,43229,east
+fm-14215,filia mcadams,corporate,united states,richmond,kentucky,40475,south
+rb-19435,richard bierner,consumer,united states,roseville,california,95661,west
+ka-16525,kelly andreada,consumer,united states,new york city,new york,10024,east
+nf-18595,nicole fjeld,home office,canada,calgary,alberta,t2c,west
+ck-12325,christine kargatis,home office,united states,chesapeake,virginia,23320,south
+dk-13225,dean katz,corporate,united states,huntington beach,california,92646,west
+jf-15295,jason fortune-,consumer,united states,logan,utah,84321,west
+nf-18475,neil französisch,home office,united states,jacksonville,florida,32216,south
+rb-19465,rick bensley,home office,united states,chicago,illinois,60653,central
+as-10240,alan shonely,consumer,united states,tampa,florida,33614,south
+cp-12340,christine phan,corporate,united states,new york city,new york,10024,east
+bn-11515,bradley nguyen,consumer,united states,lakeville,minnesota,55044,central
+az-10750,annie zypern,consumer,united states,dallas,texas,75217,central
+qj-19255,quincy jones,corporate,united states,philadelphia,pennsylvania,19134,east
+ek-13795,eileen kiefer,home office,united states,san francisco,california,94110,west
+sm-20320,sean miller,home office,united states,jacksonville,florida,32216,south
+sc-20050,sample company a,home office,united states,burbank,california,91505,west
+mc-17605,matt connell,corporate,united states,lakeland,florida,33801,south
+gm-14440,gary mcgarr,consumer,united states,knoxville,tennessee,37918,south
+kh-16690,kristen hastings,corporate,united states,springfield,virginia,22153,south
+cb-12025,cassandra brandow,consumer,united states,hamilton,ohio,45011,east
+ts-21205,thomas seio,corporate,united states,asheville,north carolina,28806,south
+bf-11275,beth fritzler,corporate,united states,tucson,arizona,85705,west
+vm-21835,vivian mathis,consumer,united states,portage,indiana,46368,central
+cc-12685,craig carroll,consumer,united states,greensboro,north carolina,27405,south
+bg-11740,bruce geld,consumer,united states,delray beach,florida,33445,south
+po-18865,patrick o'donnell,consumer,united states,los angeles,california,90036,west
+ms-17710,maurice satty,consumer,united states,fresno,california,93727,west
+cd-11920,carlos daly,consumer,united states,new york city,new york,10024,east
+ca-12265,christina anderson,consumer,united states,san francisco,california,94110,west
+dk-12835,damala kotsonis,corporate,united states,san francisco,california,94122,west
+cs-12505,cindy stewart,consumer,united states,pomona,california,91767,west
+jd-15895,jonathan doherty,corporate,united states,los angeles,california,90036,west
+mp-18175,mike pelletier,home office,united states,springfield,ohio,45503,east
+cv-12295,christina vanderzanden,consumer,united states,des moines,iowa,50315,central
+dr-12940,daniel raglin,home office,united states,albuquerque,new mexico,87105,west
+mg-18145,mike gockenbach,consumer,united states,plano,texas,75023,central
+mp-17470,mark packer,home office,united states,brownsville,texas,78521,central
+sg-20890,susan gilcrest,corporate,united states,new york city,new york,10009,east
+km-16720,kunst miller,consumer,united states,long beach,new york,11561,east
+dl-13600,dorris liebe,corporate,united states,seattle,washington,98105,west
+nc-18340,nat carroll,consumer,united states,apple valley,minnesota,55124,central
+tg-21640,trudy glocke,consumer,united states,tampa,florida,33614,south
+aa-10315,alex avila,consumer,united states,san francisco,california,94122,west
+kb-16240,karen bern,corporate,united states,miami,florida,33180,south
+dd-13570,dorothy dickinson,consumer,united states,chicago,illinois,60610,central
+jo-15280,jas o'carroll,consumer,united states,philadelphia,pennsylvania,19120,east
+kh-16330,katharine harms,corporate,united states,revere,massachusetts,2151,east
+ah-10690,anna häberlin,corporate,united states,virginia beach,virginia,23464,south
+rd-19585,rob dowd,consumer,united states,athens,georgia,30605,south
+ke-16420,katrina edelman,corporate,united states,los angeles,california,90008,west
+mz-17515,mary zewe,corporate,united states,los angeles,california,90008,west
+pk-18910,paul knutson,home office,united states,san francisco,california,94109,west
+kb-16585,ken black,corporate,united states,lafayette,louisiana,70506,south
+gm-14695,greg maxwell,corporate,united states,alexandria,virginia,22304,south
+rd-19900,ruben dartt,consumer,united states,dearborn heights,michigan,48127,central
+rp-19855,roy phan,corporate,united states,richmond,kentucky,40475,south
+th-21550,tracy hopkins,home office,united states,new york city,new york,10035,east
+jg-15805,john grady,corporate,united states,decatur,illinois,62521,central
+ay-10555,andy yotov,corporate,united states,los angeles,california,90049,west
+sc-20260,scott cohen,corporate,united states,seattle,washington,98115,west
+fh-14275,frank hawley,corporate,united states,los angeles,california,90004,west
+gp-14740,guy phonely,corporate,united states,lancaster,pennsylvania,17602,east
+pj-19015,pauline johnson,consumer,united states,mobile,alabama,36608,south
+rs-19765,roland schwarz,corporate,united states,columbia,south carolina,29203,south
+vm-21685,valerie mitchum,home office,united states,marietta,georgia,30062,south
+ra-19885,ruben ausman,corporate,united states,decatur,alabama,35601,south
+js-15880,john stevenson,consumer,united states,toledo,ohio,43615,east
+jm-15655,jim mitchum,corporate,united states,glendale,arizona,85301,west
+pc-19000,pauline chand,home office,united states,chandler,arizona,85224,west
+se-20110,sanjit engle,consumer,united states,lewiston,idaho,83501,west
+jk-15370,jay kimmel,consumer,united states,miami,florida,33180,south
+mm-18055,michelle moray,consumer,united states,great falls,montana,59405,west
+gm-14455,gary mitchum,home office,united states,austin,texas,78745,central
+kn-16450,kean nguyen,corporate,united states,redondo beach,california,90278,west
+eh-13765,edward hooks,corporate,united states,lodi,california,95240,west
+sv-20785,stewart visinsky,consumer,united states,bloomington,indiana,47401,central
+bf-11170,ben ferrer,home office,united states,baltimore,maryland,21215,east
+ps-18970,paul stevenson,home office,united states,los angeles,california,90049,west
+sp-20650,stephanie phelps,corporate,united states,wilmington,north carolina,28403,south
+jl-15835,john lee,consumer,united states,los angeles,california,90049,west
+ag-10390,allen goldenen,consumer,united states,arlington,virginia,22204,south
+bp-11230,benjamin patterson,consumer,united states,los angeles,california,90045,west
+aa-10375,allen armold,consumer,united states,los angeles,california,90008,west
+db-13555,dorothy badders,corporate,united states,henderson,kentucky,42420,south
+ah-10030,aaron hawkins,corporate,united states,troy,new york,12180,east
+lb-16795,laurel beltran,home office,united states,columbus,ohio,43229,east
+ts-21160,theresa swint,corporate,united states,philadelphia,pennsylvania,19134,east
+bt-11305,beth thompson,home office,united states,san gabriel,california,91776,west
+da-13450,dianna arnett,home office,united states,houston,texas,77095,central
+ag-10300,aleksandra gannaway,corporate,united states,los angeles,california,90049,west
+mh-17290,marc harrigan,home office,united states,los angeles,california,90036,west
+my-18295,muhammed yedwab,corporate,united states,baltimore,maryland,21215,east
+gb-14530,george bell,corporate,united states,newark,ohio,43055,east
+ds-13180,david smith,corporate,united states,jamestown,new york,14701,east
+ai-10855,arianne irving,consumer,united states,san francisco,california,94122,west
+la-16780,laura armstrong,corporate,united states,memphis,tennessee,38109,south
+hg-14845,harry greene,consumer,united states,lake charles,louisiana,70601,south
+ll-16840,lauren leatherbury,consumer,united states,rochester,new york,14609,east
+kh-16360,katherine hughes,consumer,united states,dover,delaware,19901,east
+jm-16195,justin mackendrick,consumer,united states,louisville,kentucky,40214,south
+ar-10510,andrew roberts,consumer,united states,columbus,ohio,43229,east
+cs-11860,cari schnelling,consumer,united states,lakeland,florida,33801,south
+nc-18415,nathan cano,consumer,united states,yonkers,new york,10701,east
+js-15940,joni sundaresam,home office,united states,appleton,wisconsin,54915,central
+bs-11365,bill shonely,corporate,united states,seattle,washington,98105,west
+pm-18940,paul macintyre,consumer,united states,jackson,michigan,49201,central
+pf-19120,peter fuller,consumer,united states,richmond,kentucky,40475,south
+gd-14590,giulietta dortch,corporate,united states,arlington,virginia,22204,south
+sn-20710,steve nguyen,home office,united states,los angeles,california,90004,west
+hp-14815,harold pawlan,home office,united states,los angeles,california,90049,west
+ct-11995,carol triggs,consumer,united states,lawrence,massachusetts,1841,east
+sb-20290,sean braxton,corporate,united states,henderson,kentucky,42420,south
+pg-18820,patrick gardner,consumer,united states,san francisco,california,94110,west
+af-10885,art foster,consumer,united states,philadelphia,pennsylvania,19134,east
+gm-14680,greg matthias,consumer,united states,san jose,california,95123,west
+vw-21775,victoria wilson,corporate,united states,huntsville,texas,77340,central
+pg-18895,paul gonzalez,consumer,united states,fort worth,texas,76106,central
+bg-11695,brooke gillingham,corporate,united states,watertown,new york,13601,east
+hd-14785,harold dahlen,home office,united states,chicago,illinois,60610,central
+rm-19375,raymond messe,consumer,united states,houston,texas,77095,central
+eh-14005,erica hernandez,home office,united states,hialeah,florida,33012,south
+ag-10270,alejandro grove,consumer,united states,west jordan,utah,84084,west
+np-18325,naresj patel,consumer,united states,oakland,california,94601,west
+aj-10795,anthony johnson,corporate,united states,saint petersburg,florida,33710,south
+pw-19030,pauline webber,corporate,united states,los angeles,california,90036,west
+cc-12475,cindy chapman,consumer,united states,san francisco,california,94122,west
+pa-19060,pete armstrong,home office,united states,eau claire,wisconsin,54703,central
+tt-21070,ted trevino,consumer,united states,akron,ohio,44312,east
+ga-14515,george ashbrook,consumer,united states,dallas,texas,75220,central
+bs-11755,bruce stewart,consumer,united states,cleveland,ohio,44105,east
+jh-15820,john huston,consumer,united states,midland,michigan,48640,central
+td-20995,tamara dahlen,consumer,united states,virginia beach,virginia,23464,south
+rf-19345,randy ferguson,corporate,united states,dover,new hampshire,3820,east
+mc-17590,matt collister,corporate,united states,san marcos,texas,78666,central
+cc-12430,chuck clark,home office,canada,vancouver,british columbia,v6z,west
+fg-14260,frank gastineau,home office,united states,lawrence,massachusetts,1841,east
+bt-11530,bradley talbott,home office,united states,san diego,california,92037,west
+mw-18235,mitch willingham,corporate,united states,virginia beach,virginia,23464,south
+eh-14185,evan henry,consumer,united states,decatur,alabama,35601,south
+gt-14710,greg tran,consumer,united states,new york city,new york,10035,east
+rp-19390,resi pölking,consumer,united states,baltimore,maryland,21215,east
+jl-15235,janet lee,consumer,united states,chicago,illinois,60623,central
+bw-11065,barry weirich,consumer,united states,new york city,new york,10035,east
+hf-14995,herbert flentye,consumer,united states,los angeles,california,90008,west
+dp-13240,dean percer,home office,united states,murray,utah,84107,west
+mh-17785,maya herman,corporate,united states,san diego,california,92105,west
+le-16810,laurel elliston,consumer,united states,chicago,illinois,60653,central
+lc-16885,lena creighton,consumer,united states,san francisco,california,94109,west
+mm-17260,magdelene morse,consumer,united states,seattle,washington,98105,west
+pj-18835,patrick jones,corporate,united states,seattle,washington,98115,west
+ss-20410,shahid shariari,consumer,united states,buffalo grove,illinois,60089,central
+lw-16825,laurel workman,corporate,united states,new york city,new york,10024,east
+jg-15160,james galang,consumer,united states,new york city,new york,10024,east
+eb-13840,ellis ballard,corporate,united states,richmond,virginia,23223,south
+mc-17425,mark cousins,corporate,united states,chicago,illinois,60623,central
+jk-15625,jim karlsson,consumer,united states,jackson,mississippi,39212,south
+dw-13480,dianna wilson,home office,united states,lakeville,minnesota,55044,central
+lt-17110,liz thompson,consumer,united states,little rock,arkansas,72209,south
+cr-12625,corey roper,home office,united states,lakewood,new jersey,8701,east
+re-19450,richard eichhorn,consumer,united states,decatur,illinois,62521,central
+sc-20725,steven cartwright,consumer,united states,seattle,washington,98115,west
+rb-19795,ross baird,home office,united states,midland,michigan,48640,central
+bt-11440,bobby trafton,consumer,united states,new york city,new york,10035,east
+gt-14635,grant thornton,corporate,united states,long beach,new york,11561,east
+bm-11785,bryan mills,consumer,united states,rochester,new york,14609,east
+sb-20170,sarah bern,consumer,united states,chicago,illinois,60623,central
+vt-21700,valerie takahito,home office,united states,houston,texas,77070,central
+nr-18550,nick radford,consumer,united states,aurora,illinois,60505,central
+bp-11095,bart pistole,corporate,united states,peoria,illinois,61604,central
+cs-11950,carlos soltero,consumer,united states,seattle,washington,98115,west
+rd-19480,rick duston,consumer,united states,long beach,new york,11561,east
+bh-11710,brosina hoffman,consumer,united states,los angeles,california,90032,west
+fo-14305,frank olsen,consumer,united states,harrisonburg,virginia,22801,south
+cw-11905,carl weiss,home office,united states,huntsville,texas,77340,central
+cm-12445,chuck magee,consumer,united states,san francisco,california,94122,west
+hk-14890,heather kirkland,corporate,united states,detroit,michigan,48234,central
+sr-20425,sharelle roach,home office,united states,detroit,michigan,48234,central
+kl-16555,kelly lampkin,corporate,united states,san antonio,texas,78207,central
+ps-18760,pamela stobb,consumer,united states,el paso,texas,79907,central
+sc-20575,sonia cooley,consumer,united states,mishawaka,indiana,46544,central
+gh-14425,gary hwang,consumer,united states,seattle,washington,98105,west
+jf-15415,jennifer ferguson,consumer,united states,chicago,illinois,60653,central
+db-13660,duane benoit,consumer,united states,newark,delaware,19711,east
+mc-18100,mick crebagga,consumer,united states,los angeles,california,90036,west
+nc-19470,neil cohen,home office,canada,halifax,nova scotia,b3h,east
+co-12640,corey-lock,consumer,united states,lawton,oklahoma,73505,central
+nw-18400,natalie webber,consumer,united states,philadelphia,pennsylvania,19120,east
+tb-21280,toby braunhardt,consumer,united states,new york city,new york,10024,east
+aa-10645,anna andreadi,consumer,united states,chester,pennsylvania,19013,east
+dv-13465,dianna vittorini,consumer,united states,minneapolis,minnesota,55407,central
+je-15745,joel eaton,consumer,united states,louisville,colorado,80027,west
+dl-13330,denise leinenbach,consumer,united states,concord,north carolina,28027,south
+bs-11665,brian stugart,consumer,united states,philadelphia,pennsylvania,19143,east
+lp-17080,liz pelletier,consumer,united states,tucson,arizona,85705,west
+ns-18640,noel staavos,corporate,united states,los angeles,california,90049,west
+gk-14620,grace kelly,corporate,united states,salem,oregon,97301,west
+lm-17065,liz mackendrick,consumer,united states,southaven,mississippi,38671,south
+ca-12775,cynthia arntzen,consumer,united states,philadelphia,pennsylvania,19140,east
+rw-19630,rob williams,corporate,united states,detroit,michigan,48234,central
+dl-12865,dan lawera,consumer,united states,cincinnati,ohio,45231,east
+ar-10825,anthony rawles,corporate,united states,los angeles,california,90004,west
+ra-19915,russell applegate,consumer,united states,chicago,illinois,60653,central
+ha-14905,helen abelman,consumer,united states,new york city,new york,10024,east
+ms-17980,michael stewart,corporate,united states,houston,texas,77095,central
+bd-11620,brian decherney,consumer,united states,wilmington,north carolina,28403,south
+eh-13945,eric hoffmann,consumer,united states,plainfield,new jersey,7060,east
+ms-17770,maxwell schwartz,consumer,united states,richmond,virginia,23223,south
+dm-13525,don miller,corporate,united states,palm coast,florida,32137,south
+dp-13390,dennis pardue,home office,united states,los angeles,california,90004,west
+mc-17845,michael chen,consumer,united states,jackson,mississippi,39212,south
+dc-12850,dan campbell,consumer,united states,houston,texas,77036,central
+bc-11125,becky castell,home office,united states,el cajon,california,92020,west
+ep-13915,emily phan,consumer,united states,new york city,new york,10011,east
+mh-18025,michelle huthwaite,consumer,united states,buffalo,new york,14215,east
+eb-13705,ed braxton,corporate,united states,san francisco,california,94122,west
+ds-13030,darrin sayre,home office,united states,san francisco,california,94122,west
+gh-14410,gary hansen,home office,united states,los angeles,california,90049,west
+bm-11650,brian moss,corporate,united states,dallas,texas,75217,central
+mh-17455,mark hamilton,consumer,united states,new york city,new york,10011,east
+jk-15205,jamie kunitz,consumer,united states,niagara falls,new york,14304,east
+pv-18985,paul van hugh,home office,united states,league city,texas,77573,central
+ac-10420,alyssa crouse,corporate,united states,san francisco,california,94122,west
+me-17725,max engle,consumer,united states,chicago,illinois,60610,central
+bf-10975,barbara fisher,corporate,united states,new york city,new york,10009,east
+aw-10930,arthur wiediger,home office,united states,aurora,illinois,60505,central
+pb-19150,philip brown,consumer,united states,phoenix,arizona,85023,west
+ah-10120,adrian hane,home office,united states,tucson,arizona,85705,west
+jl-15130,jack lebron,consumer,united states,new rochelle,new york,10801,east
+ca-12310,christine abelman,corporate,united states,bristol,connecticut,6010,east
+em-14140,eugene moren,home office,united states,great falls,montana,59405,west
+km-16375,katherine murray,home office,united states,dallas,texas,75217,central
+cc-12145,charles crestani,consumer,united states,san diego,california,92105,west
+sw-20245,scot wooten,consumer,united states,springfield,ohio,45503,east
+rd-19720,roger demir,consumer,united states,san francisco,california,94122,west
+me-18010,michelle ellison,corporate,united states,san francisco,california,94122,west
+hm-14860,harry marie,corporate,united states,dallas,texas,75217,central
+em-14065,erin mull,consumer,united states,new york city,new york,10024,east
+ab-10255,alejandro ballentine,home office,united states,los angeles,california,90008,west
+jl-15850,john lucas,consumer,united states,houston,texas,77095,central
+ag-10900,arthur gainer,consumer,united states,tucson,arizona,85705,west
+nc-18535,nick crebassa,corporate,united states,san francisco,california,94122,west
+kl-16645,ken lonsdale,consumer,united states,san francisco,california,94122,west
+sg-20470,sheri gordon,consumer,united states,atlanta,georgia,30318,south
+lf-17185,luke foster,consumer,united states,san antonio,texas,78207,central
+cl-11890,carl ludwig,consumer,united states,chicago,illinois,60623,central
+as-10045,aaron smayling,corporate,united states,new york city,new york,10035,east
+bb-10990,barry blumstein,corporate,united states,los angeles,california,90036,west
+ts-21430,tom stivers,corporate,united states,seattle,washington,98103,west
+il-15100,ivan liston,consumer,united states,san francisco,california,94122,west
+as-10630,ann steele,home office,united states,philadelphia,pennsylvania,19120,east
+nz-18565,nick zandusky,home office,united states,springfield,missouri,65807,central
+bk-11260,berenike kampe,consumer,united states,new york city,new york,10035,east
+vd-21670,valerie dominguez,consumer,united states,pleasant grove,utah,84062,west
+rs-19420,ricardo sperren,corporate,united states,meriden,connecticut,6450,east
+cs-12130,chad sievert,consumer,united states,los angeles,california,90004,west
+gz-14470,gary zandusky,consumer,united states,texas city,texas,77590,central
+ss-20590,sonia sunley,consumer,united states,san francisco,california,94122,west
+rf-19735,roland fjeld,consumer,united states,columbia,south carolina,29203,south
+tb-21625,trudy brown,consumer,united states,new york city,new york,10035,east
+vg-21790,vivek gonzalez,consumer,united states,jacksonville,florida,32216,south
+mb-17305,maria bertelson,consumer,united states,glendale,arizona,85301,west
+lr-16915,lena radford,consumer,united states,san diego,california,92024,west
+ma-17560,matt abelman,home office,united states,trenton,michigan,48183,central
+db-13405,denny blanton,consumer,canada,toronto,ontario,m5h,east
+jh-15985,joseph holt,consumer,united states,seattle,washington,98103,west
+ed-13885,emily ducich,home office,united states,san diego,california,92037,west
+gm-14500,gene mcclure,consumer,united states,fresno,california,93727,west
+ag-10525,andy gerbode,corporate,united states,saint petersburg,florida,33710,south
+mg-17650,matthew grinstein,home office,united states,seattle,washington,98103,west
+bw-11200,ben wallace,consumer,united states,san francisco,california,94122,west
+dh-13675,duane huffman,home office,united states,miami,florida,33180,south
+cs-12175,charles sheldon,corporate,united states,lakewood,new jersey,8701,east
+cs-12355,christine sundaresam,consumer,united states,hollywood,florida,33021,south
+kh-16510,keith herrera,consumer,united states,dallas,texas,75081,central
+ts-21610,troy staebel,consumer,united states,philadelphia,pennsylvania,19143,east
+dj-13510,don jones,corporate,united states,little rock,arkansas,72209,south
+lh-16900,lena hernandez,consumer,united states,jonesboro,arkansas,72401,south
+jb-15400,jennifer braxton,corporate,canada,montreal,quebec,h1b,east
+do-13645,doug o'connell,consumer,canada,montreal,quebec,h1b,east
+cr-12730,craig reiter,consumer,united states,chicago,illinois,60610,central
+de-13255,deanra eno,home office,united states,lakewood,ohio,44107,east
+jp-15520,jeremy pistek,consumer,united states,north miami,florida,33161,south
+ap-10915,arthur prichep,consumer,united states,denver,colorado,80219,west
+rb-19645,robert barroso,corporate,united states,los angeles,california,90032,west
+rh-19495,rick hansen,consumer,united states,new york city,new york,10009,east
+jp-15460,jennifer patt,corporate,united states,oceanside,new york,11572,east
+dw-13585,dorothy wardle,corporate,united states,owensboro,kentucky,42301,south
+jm-15265,janet molinari,corporate,united states,los angeles,california,90036,west
+je-15715,joe elijah,consumer,united states,houston,texas,77070,central
+rc-19960,ryan crowe,consumer,united states,columbus,ohio,43229,east
+mw-18220,mitch webber,consumer,united states,seattle,washington,98103,west
+kb-16315,karl braun,consumer,united states,newark,delaware,19711,east
+pp-18955,paul prost,home office,united states,newark,delaware,19711,east
+fm-14290,frank merwin,home office,united states,los angeles,california,90032,west
+cc-12610,corey catlett,corporate,united states,springfield,virginia,22153,south
+zd-21925,zuschuss donatelli,consumer,united states,san francisco,california,94109,west
+ra-19945,ryan akin,consumer,united states,miami,florida,33178,south
+hh-15010,hilary holden,corporate,united states,san francisco,california,94110,west
+at-10735,annie thurman,consumer,united states,bristol,connecticut,6010,east
+sj-20500,shirley jackson,consumer,united states,santa fe,new mexico,87505,west
+lt-16765,larry tron,consumer,united states,escondido,california,92025,west
+kd-16345,katherine ducich,consumer,united states,new york city,new york,10009,east
+mr-17545,mathew reese,home office,united states,houston,texas,77095,central
+pr-18880,patrick ryan,consumer,united states,saint petersburg,florida,33710,south
+np-18700,nora preis,consumer,united states,bowling green,ohio,43402,east
+vp-21760,victoria pisteka,corporate,united states,san francisco,california,94109,west
+sz-20035,sam zeldin,home office,united states,houston,texas,77036,central
+lr-17035,lisa ryan,corporate,united states,santa clara,california,95051,west
+dk-13375,dennis kane,consumer,united states,new york city,new york,10024,east
+mc-17275,marc crier,consumer,united states,pasco,washington,99301,west
+bm-11140,becky martin,consumer,united states,san antonio,texas,78207,central
+kt-16465,kean takahito,consumer,united states,houston,texas,77036,central
+sp-20620,stefania perrino,corporate,united states,long beach,new york,11561,east
+lh-17020,lisa hazard,consumer,united states,tyler,texas,75701,central
+kc-16255,karen carlisle,corporate,united states,macon,georgia,31204,south
+rr-19525,rick reed,corporate,united states,lowell,massachusetts,1852,east
+lc-17140,logan currie,consumer,united states,philadelphia,pennsylvania,19140,east
+ms-17365,maribeth schnelling,consumer,united states,detroit,michigan,48227,central
+cc-12220,chris cortes,consumer,united states,chicago,illinois,60653,central
+dl-12925,daniel lacy,consumer,united states,greenville,north carolina,27834,south
+sf-20065,sandra flanagan,consumer,united states,clifton,new jersey,7011,east
+ar-10345,alex russell,corporate,canada,montreal,quebec,h1c,east
+lw-17125,liz willingham,consumer,united states,oxnard,california,93030,west
+lw-17215,luke weiss,consumer,united states,new york city,new york,10035,east
+ta-21385,tom ashbrook,home office,united states,olathe,kansas,66062,central
+bn-11470,brad norvell,corporate,united states,cary,north carolina,27511,south
+pt-19090,pete takahito,consumer,united states,houston,texas,77070,central
+ea-14035,erin ashbrook,corporate,united states,charlotte,north carolina,28205,south
+jm-15535,jessica myrick,consumer,united states,philadelphia,pennsylvania,19143,east
+on-18715,odella nelson,corporate,united states,tempe,arizona,85281,west
+jc-15775,john castell,consumer,united states,macon,georgia,31204,south
+dm-13015,darrin martin,consumer,united states,new york city,new york,10009,east
+aj-10960,astrea jones,consumer,united states,rochester,new york,14609,east
+mf-18250,monica federle,corporate,united states,philadelphia,pennsylvania,19120,east
+ja-15970,joseph airdo,consumer,united states,springfield,oregon,97477,west
+ag-10765,anthony garverick,home office,united states,philadelphia,pennsylvania,19120,east
+jk-15640,jim kriz,home office,united states,san francisco,california,94110,west
+fa-14230,frank atkinson,corporate,united states,long beach,california,90805,west
+mc-18130,mike caudle,corporate,united states,seattle,washington,98115,west
+dn-13690,duane noonan,consumer,united states,columbia,maryland,21044,east
+sb-20185,sarah brown,consumer,united states,chicago,illinois,60653,central
+pf-19165,philip fox,consumer,united states,bloomington,illinois,61701,central
+ma-17995,michelle arnett,home office,united states,los angeles,california,90004,west
+es-14020,erica smith,consumer,united states,san francisco,california,94110,west
+hg-14965,henry goldwyn,corporate,united states,san diego,california,92024,west
+sl-20155,sara luxemburg,home office,united states,new york city,new york,10011,east
+lh-16750,larry hughes,consumer,united states,philadelphia,pennsylvania,19140,east
+jg-15115,jack garza,consumer,united states,des moines,washington,98198,west
+as-10090,adam shillingsburg,consumer,united states,new york city,new york,10035,east
+vg-21805,vivek grady,corporate,united states,chicago,illinois,60653,central
+tt-21220,thomas thornton,consumer,united states,dover,delaware,19901,east
+th-21115,thea hudgings,corporate,united states,newark,delaware,19711,east
+jd-16060,julia dunbar,consumer,united states,san francisco,california,94109,west
+mt-18070,michelle tran,home office,united states,houston,texas,77041,central
+bf-11005,barry franz,home office,united states,aurora,colorado,80013,west
+kf-16285,karen ferguson,home office,united states,san diego,california,92105,west
+nb-18580,nicole brennan,corporate,united states,philadelphia,pennsylvania,19134,east
+cs-12400,christopher schild,home office,united states,seattle,washington,98115,west
+th-21100,thea hendricks,consumer,united states,san diego,california,92037,west
+kd-16495,keith dawkins,corporate,united states,fayetteville,north carolina,28314,south
+gz-14545,george zrebassa,corporate,united states,lawrence,massachusetts,1841,east
+ld-17005,lisa decherney,consumer,united states,new york city,new york,10011,east
+sm-20950,suzanne mcnair,corporate,united states,philadelphia,pennsylvania,19134,east
+eb-14170,evan bailliet,consumer,united states,seattle,washington,98115,west
+kw-16570,kelly williams,consumer,united states,clarksville,tennessee,37042,south
+dm-12955,dario medina,corporate,united states,fairfield,ohio,45014,east
+db-13615,doug bickford,consumer,united states,seattle,washington,98105,west
+es-14080,erin smith,corporate,united states,tempe,arizona,85281,west
+ar-10405,allen rosenblatt,corporate,united states,los angeles,california,90036,west
+bp-11290,beth paige,consumer,united states,evanston,illinois,60201,central
+rd-19930,russell d'ascenzo,consumer,united states,dallas,texas,75217,central
+do-13435,denny ordway,consumer,united states,columbus,ohio,43229,east
+df-13135,david flashing,consumer,united states,vallejo,california,94591,west
+jd-16015,joy daniels,consumer,united states,seattle,washington,98115,west
+bd-11635,brian derr,consumer,united states,columbus,ohio,43229,east
+gg-14650,greg guthrie,corporate,canada,calgary,alberta,t1y,west
+am-10360,alice mccarthy,corporate,united states,omaha,nebraska,68104,central
+tn-21040,tanja norvell,home office,united states,manteca,california,95336,west
+fc-14335,fred chung,corporate,united states,albuquerque,new mexico,87105,west
+ha-14920,helen andreada,consumer,united states,pasadena,california,91104,west
+jf-15565,jill fjeld,consumer,united states,philadelphia,pennsylvania,19120,east
+bp-11050,barry pond,corporate,united states,chicago,illinois,60623,central
+zc-21910,zuschuss carroll,consumer,united states,edmonds,washington,98026,west
+sp-20545,sibella parks,corporate,united states,mount vernon,new york,10550,east
+tc-21295,toby carlisle,consumer,united states,everett,massachusetts,2149,east
+hg-15025,hunter glantz,consumer,united states,fort worth,texas,76106,central
+je-15610,jim epp,corporate,united states,concord,new hampshire,3301,east
+ac-10660,anna chung,consumer,united states,parma,ohio,44134,east
+ls-17245,lynn smith,consumer,united states,san francisco,california,94110,west
+tb-21520,tracy blumstein,consumer,united states,beaumont,texas,77705,central
+as-10225,alan schoenberger,corporate,united states,montgomery,alabama,36116,south
+ls-17200,luke schmidt,corporate,united states,texarkana,arkansas,71854,south
+ig-15085,ivan gibson,consumer,united states,seattle,washington,98103,west
+rp-19270,rachel payne,corporate,united states,san francisco,california,94110,west
+jf-15490,jeremy farry,consumer,united states,los angeles,california,90032,west
+eh-14125,eugene hildebrand,home office,united states,lakewood,california,90712,west
+mp-17965,michael paige,corporate,canada,montreal,quebec,h1a,east
+fh-14365,fred hopkins,corporate,united states,knoxville,tennessee,37918,south
+ls-16975,lindsay shagiari,home office,united states,chicago,illinois,60653,central
+sf-20965,sylvia foulston,corporate,united states,san diego,california,92024,west
+mg-17680,maureen gastineau,home office,united states,newark,ohio,43055,east
+db-12910,daniel byrd,home office,united states,fort lauderdale,florida,33311,south
+ah-10585,angele hood,consumer,united states,seattle,washington,98105,west
+rd-19810,ross devincentis,home office,united states,fayetteville,north carolina,28314,south
+ts-21370,todd sumrall,corporate,united states,los angeles,california,90049,west
+bt-11395,bill tyler,corporate,united states,garden city,kansas,67846,central
+nc-18625,noah childs,corporate,united states,columbus,indiana,47201,central
+am-10705,anne mcfarland,consumer,united states,cranston,rhode island,2920,east
+ac-10450,amy cox,consumer,united states,avondale,arizona,85323,west
+nl-18310,nancy lomonaco,home office,united states,san francisco,california,94110,west
+dg-13300,deirdre greer,corporate,united states,orange,new jersey,7050,east
+kh-16630,ken heidel,corporate,united states,charlotte,north carolina,28205,south
+pl-18925,paul lucas,home office,united states,los angeles,california,90049,west
+sh-20395,shahid hopkins,consumer,united states,san francisco,california,94122,west
+sw-20755,steven ward,corporate,united states,seattle,washington,98115,west
+jk-16120,julie kriz,home office,united states,fort lauderdale,florida,33311,south
+po-18850,patrick o'brill,consumer,united states,irving,texas,75061,central
+tc-21535,tracy collins,home office,united states,los angeles,california,90049,west
+dm-13345,denise monton,corporate,united states,orange,new jersey,7050,east
+ms-17530,marybeth skach,consumer,united states,san diego,california,92037,west
+wb-21850,william brown,consumer,united states,los angeles,california,90045,west
+th-21235,tiffany house,corporate,united states,long beach,california,90805,west
+bg-11035,barry gonzalez,consumer,united states,hampton,virginia,23666,south
+md-17350,maribeth dona,consumer,united states,philadelphia,pennsylvania,19143,east
+tc-20980,tamara chand,corporate,united states,houston,texas,77041,central
+eb-13870,emily burns,consumer,united states,redding,california,96003,west
+tz-21580,tracy zic,consumer,united states,louisville,colorado,80027,west
+kd-16270,karen daniels,consumer,united states,houston,texas,77095,central
+pk-19075,pete kriz,consumer,united states,madison,wisconsin,53711,central
+db-12970,darren budd,corporate,united states,houston,texas,77036,central
+rf-19840,roy französisch,consumer,united states,san antonio,texas,78207,central
+rm-19675,robert marley,home office,united states,new york city,new york,10011,east
+jl-15505,jeremy lonsdale,consumer,united states,midland,michigan,48640,central
+ml-17410,maris laware,consumer,united states,fairfield,connecticut,6824,east
+cm-11815,candace mcmahon,corporate,united states,pasadena,texas,77506,central
+jf-15190,jamie frazer,consumer,united states,johnson city,tennessee,37604,south
+pb-19105,peter bühler,consumer,united states,houston,texas,77095,central
+jd-16150,justin deggeller,corporate,united states,los angeles,california,90008,west
+ab-10165,alan barnes,consumer,united states,decatur,illinois,62521,central
+ah-10075,adam hart,corporate,united states,huntington beach,california,92646,west
+rh-19510,rick huthwaite,home office,united states,manhattan,kansas,66502,central
+rb-19330,randy bradley,consumer,united states,philadelphia,pennsylvania,19143,east
+yc-21895,yoseph carroll,corporate,united states,newark,delaware,19711,east
+jk-15730,joe kamberova,consumer,united states,des plaines,illinois,60016,central
+mk-17905,michael kennedy,corporate,united states,franklin,wisconsin,53132,central
+pw-19240,pierre wener,consumer,united states,louisville,colorado,80027,west
+ab-10600,ann blume,corporate,united states,chicago,illinois,60623,central
+jc-16105,julie creighton,corporate,united states,minneapolis,minnesota,55407,central
+gr-14560,georgia rosenberg,corporate,united states,wilmington,delaware,19805,east
+ad-10180,alan dominguez,home office,united states,philadelphia,pennsylvania,19134,east
+jm-15865,john murray,consumer,united states,jamestown,new york,14701,east
+dh-13075,dave hallsten,corporate,united states,richmond,kentucky,40475,south
+jk-15325,jason klamczynski,corporate,united states,dallas,texas,75220,central
+sc-20680,steve carroll,home office,united states,san francisco,california,94110,west
+tc-21475,tony chapman,home office,united states,bolingbrook,illinois,60440,central
+sp-20920,susan pistek,consumer,united states,los angeles,california,90036,west
+ss-20140,saphhira shifley,corporate,united states,mesquite,texas,75150,central
+sm-20005,sally matthias,consumer,united states,scottsdale,arizona,85254,west
+pb-19210,phillip breyer,corporate,united states,philadelphia,pennsylvania,19134,east
+ng-18355,nat gilpin,corporate,united states,jackson,michigan,49201,central
+ng-18430,nathan gelder,consumer,united states,cincinnati,ohio,45231,east
+at-10435,alyssa tate,home office,united states,akron,ohio,44312,east
+hr-14830,harold ryan,corporate,united states,seattle,washington,98103,west
+dk-12985,darren koutras,consumer,united states,chicago,illinois,60610,central
+jp-11135,james peterman,corporate,canada,st. john's,newfoundland and labrador,a0a,east
+ar-10540,andy reiter,consumer,united states,woonsocket,rhode island,2895,east
+bf-11080,bart folk,consumer,united states,montgomery,alabama,36116,south
+mo-17500,mary o'rourke,consumer,united states,freeport,new york,11520,east
+mc-17635,matthew clasen,corporate,united states,richmond,indiana,47374,central
+bt-11680,brian thompson,consumer,united states,houston,texas,77041,central
+bs-11380,bill stewart,corporate,united states,skokie,illinois,60076,central
+ah-10210,alan hwang,consumer,united states,san francisco,california,94122,west
+tr-21325,toby ritter,consumer,united states,san francisco,california,94122,west
+dp-13165,david philippe,consumer,united states,new york city,new york,10035,east
+md-17860,michael dominguez,corporate,united states,corpus christi,texas,78415,central
+mc-17575,matt collins,consumer,united states,chicago,illinois,60623,central
+em-13825,elizabeth moffitt,corporate,united states,sandy springs,georgia,30328,south
+kn-16390,katherine nockton,corporate,united states,columbus,ohio,43229,east
+mk-19560,michael knudson,corporate,canada,moncton,new brunswick,e1a,east
+cp-12085,cathy prescott,corporate,united states,new york city,new york,10024,east
+jb-15925,joni blumstein,consumer,united states,los angeles,california,90032,west
+rl-19615,rob lucas,consumer,united states,los angeles,california,90045,west
+nb-18655,nona balk,corporate,united states,philadelphia,pennsylvania,19134,east
+rc-19825,roy collins,consumer,united states,alexandria,virginia,22304,south
+dk-13150,david kendrick,corporate,united states,decatur,illinois,62521,central
+fp-14320,frank preis,consumer,united states,los angeles,california,90049,west
+dj-13420,denny joy,corporate,united states,san francisco,california,94110,west
+tb-21250,tim brockman,consumer,united states,salem,oregon,97301,west
+tb-21175,thomas boland,corporate,united states,houston,texas,77041,central
+sh-19975,sally hughsby,corporate,united states,caldwell,idaho,83605,west
+lh-17155,logan haushalter,consumer,united states,oakland,california,94601,west
+cy-12745,craig yedwab,corporate,united states,san antonio,texas,78207,central
+kc-16675,kimberly carter,corporate,united states,henderson,kentucky,42420,south
+ra-19285,ralph arnett,consumer,united states,houston,texas,77070,central
+ss-20875,sung shariari,consumer,united states,marion,ohio,43302,east
+cs-11845,cari sayre,corporate,united states,chicago,illinois,60623,central
+sp-20860,sung pak,corporate,united states,chicago,illinois,60623,central
+sh-20635,stefanie holloman,corporate,united states,sacramento,california,95823,west
+cc-12100,chad cunningham,home office,united states,los angeles,california,90049,west
+sc-20305,sean christensen,consumer,united states,beaumont,texas,77705,central
+sc-20695,steve chapman,corporate,united states,detroit,michigan,48227,central
+ec-14050,erin creighton,consumer,united states,columbus,ohio,43229,east
+im-15070,irene maddox,consumer,united states,florence,alabama,35630,south
+mk-18160,mike kennedy,consumer,united states,jacksonville,florida,32216,south
+ts-21505,tony sayre,consumer,united states,columbia,tennessee,38401,south
+ps-19045,penelope sewall,home office,united states,harrisonburg,virginia,22801,south
+ab-10105,adrian barton,consumer,united states,indianapolis,indiana,46203,central
+km-16660,khloe miller,consumer,united states,san jose,california,95123,west
+tw-21025,tamara willingham,home office,united states,new york city,new york,10011,east
+cc-12670,craig carreira,consumer,united states,tampa,florida,33614,south
+sf-20200,sarah foster,consumer,united states,richmond,indiana,47374,central
+ck-12595,clytie kelty,consumer,united states,san diego,california,92024,west
+mg-17695,maureen gnade,consumer,united states,philadelphia,pennsylvania,19134,east
+tb-21190,thomas brumley,home office,united states,new york city,new york,10011,east
+mg-17890,michael granlund,home office,united states,saint charles,illinois,60174,central
+re-19405,ricardo emerson,consumer,united states,kent,ohio,44240,east
+dc-13285,debra catini,consumer,united states,cottage grove,minnesota,55016,central
+bg-18435,bruce galang,consumer,canada,quebec city,quebec,g1b,east
+kb-16600,ken brennan,corporate,united states,taylor,michigan,48180,central
+mf-17665,maureen fritzler,corporate,united states,phoenix,arizona,85023,west
+ho-15230,harry olson,consumer,canada,charlottetown,prince edward island,c0a,east
+pc-18745,pamela coakley,corporate,united states,watertown,new york,13601,east
+jl-15175,james lanier,home office,united states,reno,nevada,89502,west
+cb-12535,claudia bergmann,corporate,united states,newark,delaware,19711,east
+ah-10465,amy hunt,consumer,united states,dallas,texas,75217,central
+cs-12490,cindy schnelling,corporate,united states,toledo,ohio,43615,east
+ys-21880,yana sorensen,corporate,united states,newark,delaware,19711,east
+ks-16300,karen seio,corporate,united states,columbus,georgia,31907,south
+cr-12820,cyra reiten,home office,united states,west palm beach,florida,33407,south
+rw-19540,rick wilson,corporate,united states,los angeles,california,90008,west
+ts-21655,trudy schmidt,consumer,united states,houston,texas,77070,central
+lo-17170,lori olson,corporate,united states,suffolk,virginia,23434,south
+sj-20215,sarah jordon,consumer,united states,los angeles,california,90049,west
+gt-14755,guy thornton,consumer,united states,long beach,california,90805,west
+lc-16960,lindsay castell,home office,united states,new york city,new york,10024,east
+np-18670,nora paige,consumer,united states,seattle,washington,98105,west
+tp-21565,tracy poddar,corporate,united states,coppell,texas,75019,central
+dk-13090,dave kipp,consumer,united states,seattle,washington,98103,west
+ah-10195,alan haines,corporate,united states,bethlehem,pennsylvania,18018,east
+jj-15445,jennifer jackson,consumer,united states,chicago,illinois,60623,central
+dk-12895,dana kaydos,consumer,united states,kenosha,wisconsin,53142,central
+tg-21310,toby gnade,consumer,united states,raleigh,north carolina,27604,south
+eb-13750,edward becker,corporate,united states,plantation,florida,33317,south
+je-15475,jeremy ellison,consumer,united states,seattle,washington,98103,west
+cm-12385,christopher martinez,consumer,united states,atlanta,georgia,30318,south
+cm-12655,corinna mitchell,home office,united states,houston,texas,77041,central
+jo-15550,jesus ocampo,home office,united states,seattle,washington,98105,west
+bw-11110,bart watters,corporate,united states,milwaukee,wisconsin,53209,central
+jw-16075,julia west,consumer,united states,jacksonville,north carolina,28540,south
+fw-14395,fred wasserman,corporate,united states,huntsville,alabama,35810,south
+db-13210,dean braden,consumer,united states,houston,texas,77041,central
+bp-11185,ben peterman,corporate,united states,coral springs,florida,33065,south
+bv-11245,benjamin venier,corporate,united states,miami,florida,33142,south
+cm-12115,chad mcguire,consumer,united states,new york city,new york,10024,east
+mo-17950,michael oakman,consumer,united states,dallas,texas,75220,central
+jd-15790,john dryer,consumer,united states,los angeles,california,90049,west
+rd-19660,robert dilbeck,home office,united states,seattle,washington,98103,west
+eb-14110,eugene barchas,consumer,united states,los angeles,california,90045,west
+hj-14875,heather jas,home office,united states,mesa,arizona,85204,west
+aw-10840,anthony witt,consumer,united states,farmington,new mexico,87401,west
+tp-21130,theone pippenger,consumer,united states,springfield,oregon,97477,west
+ot-18730,olvera toch,consumer,united states,detroit,michigan,48234,central
+jk-16090,juliana krohn,consumer,united states,louisville,kentucky,40214,south
+ls-16945,linda southworth,corporate,united states,los angeles,california,90004,west
+db-13120,david bremer,corporate,united states,tampa,florida,33614,south
+jb-16045,julia barnett,home office,united states,chula vista,california,91911,west
+lc-16870,lena cacioppo,consumer,united states,san francisco,california,94109,west
+sv-20815,stuart van,corporate,united states,indianapolis,indiana,46203,central
+ag-10675,anna gayman,consumer,united states,allen,texas,75002,central
+ro-19780,rose o'brian,consumer,united states,seattle,washington,98115,west
+jh-16180,justin hirsh,consumer,united states,pueblo,colorado,81001,west
+nk-18490,neil knudson,home office,united states,seattle,washington,98105,west
+en-13780,edward nazzal,consumer,united states,new york city,new york,10009,east
+bd-11560,brendan dodson,home office,united states,springfield,virginia,22153,south
+bd-11320,bill donatelli,consumer,united states,minneapolis,minnesota,55407,central
+ml-18265,muhammed lee,consumer,united states,fayetteville,north carolina,28314,south
+cg-12040,catherine glotzbach,home office,united states,los angeles,california,90045,west
+bp-11155,becky pak,consumer,united states,los angeles,california,90008,west
+bb-11545,brenda bowman,corporate,united states,saint charles,missouri,63301,central
+em-13810,eleni mccrary,corporate,united states,los angeles,california,90036,west
+ag-10495,andrew gjertsen,corporate,united states,saint petersburg,florida,33710,south
+mj-17740,max jones,consumer,united states,miami,florida,33178,south
+gb-14575,giulietta baptist,consumer,united states,philadelphia,pennsylvania,19134,east
+jh-15910,jonathan howell,consumer,united states,west palm beach,florida,33407,south
+fc-14245,frank carlisle,home office,united states,springfield,ohio,45503,east
+sn-20560,skye norling,home office,united states,peoria,arizona,85345,west
+sc-20770,stewart carmichael,corporate,united states,san francisco,california,94122,west
+sw-20455,shaun weien,consumer,united states,rochester,new york,14609,east
+ch-12070,cathy hwang,home office,united states,philadelphia,pennsylvania,19143,east
+db-13360,dennis bolton,home office,united states,lakewood,ohio,44107,east
+rh-19600,rob haberlin,consumer,united states,carol stream,illinois,60188,central
+bd-11725,bruce degenhardt,consumer,united states,richmond,kentucky,40475,south
+jp-16135,julie prescott,home office,united states,san diego,california,92024,west
+vp-21730,victor preis,home office,united states,sterling heights,michigan,48310,central
+km-16225,kalyca meade,corporate,united states,new york city,new york,10011,east
+fm-14380,fred mcmath,consumer,united states,amarillo,texas,79109,central
+vb-21745,victoria brennan,corporate,united states,houston,texas,77041,central
+ts-21085,thais sissman,consumer,united states,phoenix,arizona,85023,west
+rk-19300,ralph kennedy,consumer,united states,south bend,indiana,46614,central
+ss-20515,shirley schmidt,home office,united states,louisville,kentucky,40214,south
+be-11455,brad eason,home office,united states,providence,rhode island,2908,east
+pn-18775,parhena norris,home office,united states,bakersfield,california,93309,west
+em-14095,eudokia martin,corporate,united states,springfield,virginia,22153,south
+po-19180,philisse overcash,home office,united states,new york city,new york,10035,east
+tt-21265,tim taslimi,corporate,united states,los angeles,california,90045,west
+jw-15955,joni wasserman,consumer,united states,philadelphia,pennsylvania,19120,east
+sc-20440,shaun chance,corporate,united states,new bedford,massachusetts,2740,east
+rb-19705,roger barcio,home office,united states,new york city,new york,10009,east
+dp-13105,dave poirier,corporate,united states,new york city,new york,10035,east
+fh-14350,fred harton,consumer,united states,atlanta,georgia,30318,south
+kw-16435,katrina willman,consumer,united states,florence,kentucky,41042,south
+ca-12055,cathy armstrong,home office,united states,houston,texas,77036,central
+nm-18520,neoma murray,consumer,united states,moreno valley,california,92553,west
+bo-11425,bobby odegard,consumer,united states,new york city,new york,10024,east
+kd-16615,ken dana,corporate,united states,anaheim,california,92804,west
+bm-11575,brendan murry,corporate,united states,new york city,new york,10035,east
+ac-10615,ann chong,corporate,united states,philadelphia,pennsylvania,19143,east
+mo-17800,meg o'connel,home office,united states,los angeles,california,90036,west
+ab-10060,adam bellavance,home office,united states,des moines,washington,98198,west
+cm-12190,charlotte melton,consumer,united states,san diego,california,92105,west
+jr-16210,justin ritter,corporate,united states,jacksonville,florida,32216,south
+sj-20125,sanjit jacobs,home office,united states,franklin,tennessee,37064,south
+cm-11935,carlos meador,consumer,united states,tucson,arizona,85705,west
+dr-12880,dan reichenbach,corporate,united states,new york city,new york,10011,east
+bs-11800,bryan spruell,home office,united states,san diego,california,92037,west
+hw-14935,helen wasserman,corporate,united states,detroit,michigan,48205,central
+em-13960,eric murdock,consumer,united states,quincy,illinois,62301,central
+hm-14980,henry macallister,consumer,united states,los angeles,california,90008,west
+jj-15760,joel jenkins,home office,united states,springfield,virginia,22153,south
+gh-14485,gene hale,corporate,united states,dallas,texas,75081,central
+so-20335,sean o'donnell,consumer,united states,fort lauderdale,florida,33311,south
+cg-12520,claire gute,consumer,united states,dallas,texas,75217,central
+jf-15355,jay fein,consumer,united states,san diego,california,92105,west
+my-17380,maribeth yedwab,corporate,united states,rancho cucamonga,california,91730,west
+sg-20080,sandra glassco,consumer,united states,redlands,california,92374,west
+eg-13900,emily grady,consumer,united states,chesapeake,virginia,23320,south
+kc-16540,kelly collister,consumer,united states,seattle,washington,98115,west
+cb-12415,christy brittain,consumer,united states,lakewood,ohio,44107,east
+mt-17815,meg tillman,consumer,united states,scottsdale,arizona,85254,west
+mz-17335,maria zettner,home office,united states,san diego,california,92024,west
+gh-14665,greg hansen,consumer,united states,chicago,illinois,60610,central
+kb-16405,katrina bavinger,home office,united states,seattle,washington,98105,west
+pb-18805,patrick bzostek,home office,united states,san francisco,california,94122,west
+rh-19555,ritsa hightower,consumer,united states,tallahassee,florida,32303,south
+mh-17620,matt hagelstein,corporate,united states,san diego,california,92105,west
+su-20665,stephanie ulpright,home office,united states,ann arbor,michigan,48104,central
+af-10870,art ferguson,consumer,united states,san francisco,california,94109,west
+tt-21460,tonja turnell,home office,united states,fort worth,texas,76106,central
+sc-20800,stuart calhoun,consumer,united states,houston,texas,77041,central
+dj-13630,doug jacobs,consumer,united states,portland,oregon,97206,west
+pm-19135,peter mcvee,home office,united states,dover,new hampshire,3820,east
+em-14200,evan minnotte,home office,united states,miami,florida,33142,south
+er-13855,elpida rittenbach,corporate,united states,colorado springs,colorado,80906,west
+jr-15670,jim radford,consumer,united states,colorado springs,colorado,80906,west
+dl-13495,dionis lloyd,corporate,united states,detroit,michigan,48227,central
+bt-11485,brad thomas,home office,united states,clinton,maryland,20735,east
+bo-11350,bill overfelt,corporate,united states,broken arrow,oklahoma,74012,central
+eb-13975,erica bern,corporate,united states,charlotte,north carolina,28205,south
+jb-16000,joy bell-,consumer,united states,longview,washington,98632,west
+be-11335,bill eplett,home office,united states,new york city,new york,10009,east
+tb-21355,todd boyes,corporate,united states,plainfield,new jersey,7060,east
+he-14800,harold engle,corporate,united states,chicago,illinois,60623,central
+be-11410,bobby elias,consumer,united states,lancaster,ohio,43130,east
+dw-13540,don weiss,consumer,united states,houston,texas,77070,central
+jg-15310,jason gross,corporate,united states,odessa,texas,79762,central
+cj-12010,caroline jumper,consumer,united states,long beach,new york,11561,east
+bd-11770,bryan davis,consumer,united states,philadelphia,pennsylvania,19143,east
+hz-14950,henia zydlo,consumer,united states,columbus,ohio,43229,east
+sv-20935,susan vittorini,consumer,united states,oceanside,new york,11572,east
+jt-12540,jill trafton,consumer,canada,quebec city,quebec,g1b,east
+jm-15250,janet martin,consumer,united states,new york city,new york,10009,east
+rb-19360,raymond buch,consumer,united states,auburn,new york,13021,east
+sw-20350,sean wendt,home office,united states,detroit,michigan,48227,central
+jm-15580,jill matthias,consumer,united states,baltimore,maryland,21215,east
+cr-12580,clay rozendal,home office,united states,elmhurst,illinois,60126,central
+el-13735,ed ludwig,home office,united states,jefferson city,missouri,65109,central
+cl-12700,craig leslie,home office,united states,colorado springs,colorado,80906,west
+rb-19570,rob beeghly,consumer,united states,saint charles,illinois,60174,central
+cm-12235,chris mcafee,consumer,united states,little rock,arkansas,72209,south
+sm-20905,susan mackendrick,consumer,united states,newark,ohio,43055,east
+lw-16990,lindsay williams,corporate,united states,henderson,nevada,89015,west
+cv-12805,cynthia voltz,corporate,united states,austin,texas,78745,central
+as-10285,alejandro savely,corporate,united states,dallas,texas,75081,central
+cc-12370,christopher conant,consumer,united states,philadelphia,pennsylvania,19120,east
+rw-19690,robert waldorf,consumer,united states,wilmington,north carolina,28403,south
+lp-17095,liz preis,consumer,united states,fairfield,ohio,45014,east
+sc-20230,scot coram,corporate,united states,lowell,massachusetts,1852,east
+rs-19870,roy skaria,home office,united states,philadelphia,pennsylvania,19120,east
+bf-11215,benjamin farhat,home office,united states,minneapolis,minnesota,55407,central
+dv-13045,darrin van huff,corporate,united states,los angeles,california,90036,west
+ho-15234,harry olson,consumer,canada,charlottetown,prince edward island,c0a,east
+ho-15233,harry olson,consumer,canada,charlottetown,prince edward island,c0a,east
+ho-15232,harry olson,consumer,canada,charlottetown,prince edward island,c0a,east
+ho-15231,harry olson,consumer,canada,charlottetown,prince edward island,c0a,east
+js-15685,jim sink,corporate,united states,philadelphia,pennsylvania,19140,east
+tb-21055,ted butterfield,consumer,united states,troy,new york,12180,east
+ld-16855,lela donovan,corporate,united states,chicago,illinois,60653,central
+pf-19225,phillip flathmann,consumer,united states,atlanta,georgia,30318,south
+ar-10570,anemone ratner,consumer,united states,columbus,georgia,31907,south
+aa-10480,andrew allen,consumer,united states,springfield,missouri,65807,central
+lb-16735,larry blacks,consumer,united states,los angeles,california,90032,west
+ag-10330,alex grayson,consumer,united states,tulsa,oklahoma,74133,central
+ml-17755,max ludwig,home office,united states,suffolk,virginia,23434,south
+ao-10810,anthony o'donnell,corporate,united states,los angeles,california,90045,west
+mh-18115,mick hernandez,home office,united states,pharr,texas,78577,central
+tp-21415,tom prescott,consumer,united states,dallas,texas,75081,central
+js-13215,jennifer sheldon,corporate,canada,quebec city,quebec,g1b,east
+cm-12160,charles mccrossin,consumer,united states,baltimore,maryland,21215,east
+sc-20845,sung chung,consumer,united states,arlington heights,illinois,60004,central
+rr-19315,ralph ritter,consumer,united states,san francisco,california,94110,west
+ns-18505,neola schneider,consumer,united states,dallas,texas,75217,central
+cd-11980,carol darley,consumer,united states,medford,oregon,97504,west
+sk-19990,sally knutson,consumer,united states,fairfield,connecticut,6824,east
+je-16165,justin ellison,corporate,united states,franklin,wisconsin,53132,central
+cj-11875,carl jackson,corporate,united states,philadelphia,pennsylvania,19140,east
+rm-19750,roland murray,consumer,united states,new york city,new york,10011,east
+ml-18040,michelle lonsdale,corporate,united states,dearborn,michigan,48126,central
+tm-21490,tony molinari,consumer,united states,oklahoma city,oklahoma,73120,central
+mg-18205,mitch gastineau,corporate,united states,jacksonville,florida,32216,south
+cc-12550,clay cheatham,consumer,united states,san francisco,california,94122,west
+cs-12460,chuck sachs,consumer,united states,columbus,georgia,31907,south
+jc-15385,jenna caffey,consumer,united states,kent,washington,98031,west
+tc-21145,theresa coyne,corporate,united states,lakewood,new jersey,8701,east
+ph-18790,patricia hirasaki,home office,united states,lakeland,florida,33801,south
+jr-15700,jocasta rupert,consumer,united states,jacksonville,florida,32216,south
+cd-12280,christina demoss,consumer,united states,new york city,new york,10024,east
+as-10135,adrian shami,home office,united states,new york city,new york,10035,east

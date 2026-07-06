@@ -74,7 +74,7 @@ The original dataset is a flat CSV file containing sales transactions with custo
 │   └── 03_sales_profit_analysis.sql
 │
 └── powerbi/
-    └── dashboard_screenshot
+    └── dashboard_screenshot/
 ```
 
 ## Data Cleaning and Preparation
@@ -255,7 +255,7 @@ Il dataset originale è un file CSV piatto contenente transazioni di vendita con
 │   └── 03_sales_profit_analysis.sql
 │
 └── powerbi/
-    └── dashboard_screenshot
+    └── dashboard_screenshot/
 ```
 
 ## Pulizia e preparazione dei dati

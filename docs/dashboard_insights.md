@@ -25,9 +25,11 @@ The second page focuses on discount levels, profitability, product margins and c
 
 ## Dashboard Screenshot
 
-Dashboard screenshot available as:
+Dashboard screenshot available in:
 
-**superstore_sales_dashboard.pdf**
+```
+powerbi/dashboard_screenshot/superstore_sales_dashboard.pdf
+```
 
 ## Key Measures
 
@@ -180,9 +182,11 @@ La seconda pagina si concentra su livelli di sconto, redditività, marginalità 
 
 ## Screenshot della Dashboard
 
-Lo screenshot della dashboard è disponibile come:
+Lo screenshot della dashboard è disponibile in:
 
-**superstore_sales_dashboard.pdf**
+```
+powerbi/dashboard_screenshot/superstore_sales_dashboard.pdf
+```
 
 ## Misure Principali
 

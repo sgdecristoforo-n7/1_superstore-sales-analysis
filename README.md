@@ -1,4 +1,4 @@
------ ENGLISH -----
+## ----- ENGLISH -----
 
 # Superstore Retail Sales Analysis
 
@@ -50,7 +50,7 @@ The original dataset is a flat CSV file containing sales transactions with custo
 ## Repository Structure
 
 ```
-superstore-retail-analysis/
+1_superstore-retail-analysis/
 │
 ├── README.md
 │
@@ -59,22 +59,22 @@ superstore-retail-analysis/
 │   └── processed/
 │
 ├── docs/
+│   ├── dashboard_insights.md
 │   ├── data_cleaning_notes.md
 │   ├── data_model.md
 │   └── sql_analysis_summary.md
 │
 ├── notebooks/
-│   └── 01_data_cleaning_and_modeling.ipynb
+│   └── NTB_Progetto_1.ipynb
 │
 ├── sql/
 │   ├── 00_create_tables.sql
 │   ├── 01_table_checks.sql
 │   ├── 02_join_integrity_checks.sql
-│   └── 03_basic_business_queries.sql
+│   └── 03_sales_profit_analysis.sql
 │
-├── powerbi/
-│
-└── images/
+└── powerbi/
+    └── dashboard_screenshot
 ```
 
 ## Data Cleaning and Preparation
@@ -148,19 +148,12 @@ The SQL section includes scripts to:
 * define primary keys and foreign keys;
 * check the number of rows imported into each table;
 * verify join integrity between fact and dimension tables;
-* run basic business queries on sales, profit and discounts.
 
 SQL scripts are available in:
 
 ```
 sql/
 ```
-
-The SQL analysis includes:
-
-* sales and profit by product category;
-* sales and profit by region;
-* average discount, sales and profit by customer segment.
 
 More details are available in:
 
@@ -170,9 +163,7 @@ docs/sql_analysis_summary.md
 
 ## Power BI Dashboard
 
-The Power BI dashboard is planned as the next step of the project.
-
-The dashboard will be used to visualize:
+The dashboard are used to visualize:
 
 * total sales;
 * total profit;
@@ -182,35 +173,13 @@ The dashboard will be used to visualize:
 * discount impact;
 * time-based sales and profit trends.
 
-## Current Project Status
-
-Completed:
-
-* data cleaning and preparation;
-* Product ID anomaly analysis;
-* final analytical dataset creation;
-* star schema creation;
-* CSV export;
-* PostgreSQL import;
-* SQL table creation scripts;
-* SQL validation scripts;
-* basic SQL business queries;
-* project documentation.
-
-In progress / next steps:
-
-* Power BI dashboard;
-* final business insights;
-* dashboard screenshots;
-* final project polish.
-
 ## Notes
 
 This project is intentionally focused on clear, explainable steps suitable for a Junior Data Analyst portfolio.
 
 The SQL section avoids advanced techniques that are outside the current scope of the project and focuses on core concepts such as table creation, joins, grouping and aggregations.
 
------ ITALIANO -----
+## ----- ITALIANO -----
 
 # Analisi Vendite Retail Superstore
 
@@ -262,7 +231,7 @@ Il dataset originale è un file CSV piatto contenente transazioni di vendita con
 ## Struttura del repository
 
 ```
-superstore-retail-analysis/
+1_superstore-retail-analysis/
 │
 ├── README.md
 │
@@ -271,22 +240,22 @@ superstore-retail-analysis/
 │   └── processed/
 │
 ├── docs/
+│   ├── dashboard_insights.md
 │   ├── data_cleaning_notes.md
 │   ├── data_model.md
 │   └── sql_analysis_summary.md
 │
 ├── notebooks/
-│   └── 01_data_cleaning_and_modeling.ipynb
+│   └── NTB_Progetto_1.ipynb
 │
 ├── sql/
 │   ├── 00_create_tables.sql
 │   ├── 01_table_checks.sql
 │   ├── 02_join_integrity_checks.sql
-│   └── 03_basic_business_queries.sql
+│   └── 03_sales_profit_analysis.sql
 │
-├── powerbi/
-│
-└── images/
+└── powerbi/
+    └── dashboard_screenshot
 ```
 
 ## Pulizia e preparazione dei dati
@@ -360,19 +329,12 @@ La sezione SQL include script per:
 * definire chiavi primarie e chiavi esterne;
 * controllare il numero di righe importate in ogni tabella;
 * verificare l'integrità dei join tra fact table e tabelle dimensionali;
-* eseguire query business di base su vendite, profitto e sconti.
 
 Gli script SQL sono disponibili in:
 
 ```
 sql/
 ```
-
-L'analisi SQL include:
-
-* vendite e profitto per categoria prodotto;
-* vendite e profitto per regione;
-* sconto medio, vendite e profitto per segmento cliente.
 
 Maggiori dettagli sono disponibili in:
 
@@ -382,9 +344,7 @@ docs/sql_analysis_summary.md
 
 ## Dashboard Power BI
 
-La dashboard Power BI è prevista come prossimo step del progetto.
-
-La dashboard servirà a visualizzare:
+La dashboard serve a visualizzare:
 
 * vendite totali;
 * profitto totale;
@@ -393,28 +353,6 @@ La dashboard servirà a visualizzare:
 * performance dei segmenti cliente;
 * impatto degli sconti;
 * andamento temporale di vendite e profitto.
-
-## Stato attuale del progetto
-
-Completato:
-
-* pulizia e preparazione dati;
-* analisi anomalie Product ID;
-* creazione dataset analitico finale;
-* creazione schema a stella;
-* esportazione CSV;
-* importazione in PostgreSQL;
-* script SQL di creazione tabelle;
-* script SQL di validazione;
-* query SQL business di base;
-* documentazione del progetto.
-
-In corso / prossimi step:
-
-* dashboard Power BI;
-* insight business finali;
-* screenshot della dashboard;
-* rifinitura finale del progetto.
 
 ## Note
 

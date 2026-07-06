@@ -1,29 +1,33 @@
+## ----------- ENGLISH -----------
+
 # SQL Analysis Summary
 
 ## Overview
 
-This section documents the SQL part of the Superstore Retail Sales Analysis project.
+This document summarizes the SQL part of the Superstore Retail Sales Analysis project.
 
-The cleaned dataset was imported into PostgreSQL and organized using a simple star schema composed of one fact table and three dimension tables.
+After the data cleaning and modeling phase in Python, the cleaned tables were imported into PostgreSQL and organized using a simple star schema composed of one fact table and three dimension tables.
+
+The SQL section was used to validate the imported data, check relationships between tables and run basic business queries.
 
 ## SQL Objectives
 
 The SQL scripts were used to:
 
-* create the PostgreSQL tables;
-* define primary keys and foreign keys;
-* validate the number of records imported into each table;
-* check join integrity between the fact table and the dimension tables;
-* run basic business queries on sales, profit and discounts.
+- create the PostgreSQL tables;
+- define primary keys and foreign keys;
+- validate the number of records imported into each table;
+- check join integrity between the fact table and the dimension tables;
+- run basic business queries on sales, profit and discounts.
 
 ## Database Schema
 
 The PostgreSQL schema includes the following tables:
 
-* `fact_sales`
-* `dim_customers`
-* `dim_products`
-* `dim_date`
+- `fact_sales`
+- `dim_customers`
+- `dim_products`
+- `dim_date`
 
 The fact table contains transactional sales data, while the dimension tables contain descriptive information about customers, products and dates.
 
@@ -31,99 +35,113 @@ The fact table contains transactional sales data, while the dimension tables con
 
 ### `00_create_tables.sql`
 
-Creates the PostgreSQL star schema.
+This script creates the PostgreSQL star schema.
 
-This script defines:
+It defines:
 
-* customer dimension table;
-* product dimension table;
-* date dimension table;
-* sales fact table;
-* primary keys;
-* foreign keys.
+- customer dimension table;
+- product dimension table;
+- date dimension table;
+- sales fact table;
+- primary keys;
+- foreign keys.
 
 ### `01_table_checks.sql`
 
-Checks the number of rows imported into each table.
+This script checks the number of rows imported into each table.
 
-This is used to verify that the CSV files exported from Python were correctly loaded into PostgreSQL.
+It is used to verify that the CSV files exported from Python were correctly loaded into PostgreSQL.
 
 ### `02_join_integrity_checks.sql`
 
-Checks whether all records in the fact table have matching records in the related dimension tables.
+This script checks whether all records in the fact table have matching records in the related dimension tables.
 
 The script verifies the relationships between:
 
-* `fact_sales.customer_id` and `dim_customers.customer_id`;
-* `fact_sales.product_id` and `dim_products.product_id`;
-* `fact_sales.order_date_id` and `dim_date.date_id`;
-* `fact_sales.ship_date_id` and `dim_date.date_id`.
+- `fact_sales.customer_id` and `dim_customers.customer_id`;
+- `fact_sales.product_id` and `dim_products.product_id`;
+- `fact_sales.order_date_id` and `dim_date.date_id`;
+- `fact_sales.ship_date_id` and `dim_date.date_id`.
 
 The expected result is zero missing records for each check.
 
-### `03_basic_business_queries.sql`
+### `03_sales_profit_analysis.sql`
 
-Contains simple business queries based on core SQL concepts.
+This script contains simple business queries based on core SQL concepts.
 
 The queries analyze:
 
-* sales and profit by product category;
-* sales and profit by region;
-* average discount, sales and profit by customer segment.
+- sales and profit by product category;
+- sales and profit by region;
+- average discount, sales and profit by customer segment.
 
 ## SQL Concepts Used
 
 The SQL section uses the following concepts:
 
-* `CREATE TABLE`
-* `PRIMARY KEY`
-* `FOREIGN KEY`
-* `SELECT`
-* `JOIN`
-* `LEFT JOIN`
-* `GROUP BY`
-* `COUNT`
-* `SUM`
-* `AVG`
-* `ROUND`
-* `ORDER BY`
-* `UNION ALL`
-* `IS NULL`
+- `CREATE TABLE`
+- `PRIMARY KEY`
+- `FOREIGN KEY`
+- `SELECT`
+- `JOIN`
+- `LEFT JOIN`
+- `GROUP BY`
+- `COUNT`
+- `SUM`
+- `AVG`
+- `ROUND`
+- `ORDER BY`
+- `UNION ALL`
+- `IS NULL`
+
+## Business Queries Included
+
+The business queries were intentionally kept simple and explainable.
+
+They were designed to answer basic analytical questions such as:
+
+- which product categories generate the highest sales and profit;
+- which regions generate the highest or lowest profit;
+- how average discount, sales and profit vary by customer segment.
+
+These queries provide a SQL-based validation layer before building the Power BI dashboard.
 
 ## Notes
 
 The SQL analysis is intentionally focused on clear and explainable queries suitable for a Junior Data Analyst portfolio.
 
-More advanced SQL techniques, such as window functions, subqueries and common table expressions, were not included in this version of the project.
 
----
 
-# Riepilogo Analisi SQL
+## ----------- ITALIANO -----------
+
+# Riepilogo dell'Analisi SQL
 
 ## Panoramica
 
-Questa sezione documenta la parte SQL del progetto di analisi vendite Superstore.
+Questo documento riassume la parte SQL del progetto di analisi delle vendite e della redditività del dataset Superstore.
 
-Il dataset pulito con Python/Pandas è stato importato in PostgreSQL e organizzato in un semplice schema a stella composto da una tabella fact e tre tabelle dimensionali.
+Dopo la fase di pulizia e modellazione dei dati in Python, le tabelle pulite sono state importate in PostgreSQL e organizzate usando un semplice schema a stella composto da una tabella fact e tre tabelle dimensionali.
 
-## Obiettivi della parte SQL
+La sezione SQL è stata usata per validare i dati importati, controllare le relazioni tra le tabelle ed eseguire query business di base.
+
+## Obiettivi SQL
 
 Gli script SQL sono stati usati per:
 
-* creare le tabelle in PostgreSQL;
-* definire chiavi primarie e chiavi esterne;
-* controllare il numero di record importati in ogni tabella;
-* verificare l'integrità dei join tra la tabella fact e le tabelle dimensionali;
-* eseguire query business di base su vendite, profitto e sconti.
+- creare le tabelle in PostgreSQL;
+- definire chiavi primarie e chiavi esterne;
+- validare il numero di record importati in ogni tabella;
+- controllare l'integrità delle join tra tabella fact e tabelle dimensionali;
+- eseguire query business di base su vendite, profitto e sconti.
 
-## Schema del database
+## Schema del Database
 
 Lo schema PostgreSQL include le seguenti tabelle:
 
-* `fact_sales`
-* `dim_customers`
-* `dim_products`
-* `dim_date`
+- `fact_sales`
+- `dim_customers`
+- `dim_products`
+- `dim_date`
 
 La tabella fact contiene i dati transazionali di vendita, mentre le tabelle dimensionali contengono informazioni descrittive su clienti, prodotti e date.
 
@@ -131,67 +149,77 @@ La tabella fact contiene i dati transazionali di vendita, mentre le tabelle dime
 
 ### `00_create_tables.sql`
 
-Crea lo schema a stella in PostgreSQL.
+Questo script crea lo schema a stella in PostgreSQL.
 
-Questo script definisce:
+Definisce:
 
-* la tabella dimensionale dei clienti;
-* la tabella dimensionale dei prodotti;
-* la tabella dimensionale delle date;
-* la tabella fact delle vendite;
-* le chiavi primarie;
-* le chiavi esterne.
+- tabella dimensionale clienti;
+- tabella dimensionale prodotti;
+- tabella dimensionale date;
+- tabella fact delle vendite;
+- chiavi primarie;
+- chiavi esterne.
 
 ### `01_table_checks.sql`
 
-Controlla il numero di righe importate in ogni tabella.
+Questo script controlla il numero di righe importate in ogni tabella.
 
-Questo controllo serve a verificare che i CSV esportati da Python siano stati caricati correttamente in PostgreSQL.
+Viene usato per verificare che i file CSV esportati da Python siano stati caricati correttamente in PostgreSQL.
 
 ### `02_join_integrity_checks.sql`
 
-Controlla che tutti i record presenti nella tabella fact abbiano una corrispondenza nelle relative tabelle dimensionali.
+Questo script controlla se tutti i record presenti nella tabella fact hanno record corrispondenti nelle relative tabelle dimensionali.
 
 Lo script verifica le relazioni tra:
 
-* `fact_sales.customer_id` e `dim_customers.customer_id`;
-* `fact_sales.product_id` e `dim_products.product_id`;
-* `fact_sales.order_date_id` e `dim_date.date_id`;
-* `fact_sales.ship_date_id` e `dim_date.date_id`.
+- `fact_sales.customer_id` e `dim_customers.customer_id`;
+- `fact_sales.product_id` e `dim_products.product_id`;
+- `fact_sales.order_date_id` e `dim_date.date_id`;
+- `fact_sales.ship_date_id` e `dim_date.date_id`.
 
-Il risultato atteso è zero record mancanti per ogni controllo.
+Il risultato atteso è zero record mancanti per ciascun controllo.
 
-### `03_basic_business_queries.sql`
+### `03_sales_profit_analysis.sql`
 
-Contiene semplici query business basate sui concetti SQL principali.
+Questo script contiene semplici query business basate sui concetti SQL fondamentali.
 
 Le query analizzano:
 
-* vendite e profitto per categoria prodotto;
-* vendite e profitto per regione;
-* sconto medio, vendite e profitto per segmento cliente.
+- vendite e profitto per categoria prodotto;
+- vendite e profitto per regione;
+- sconto medio, vendite e profitto per segmento cliente.
 
-## Concetti SQL utilizzati
+## Concetti SQL Utilizzati
 
 La sezione SQL utilizza i seguenti concetti:
 
-* `CREATE TABLE`
-* `PRIMARY KEY`
-* `FOREIGN KEY`
-* `SELECT`
-* `JOIN`
-* `LEFT JOIN`
-* `GROUP BY`
-* `COUNT`
-* `SUM`
-* `AVG`
-* `ROUND`
-* `ORDER BY`
-* `UNION ALL`
-* `IS NULL`
+- `CREATE TABLE`
+- `PRIMARY KEY`
+- `FOREIGN KEY`
+- `SELECT`
+- `JOIN`
+- `LEFT JOIN`
+- `GROUP BY`
+- `COUNT`
+- `SUM`
+- `AVG`
+- `ROUND`
+- `ORDER BY`
+- `UNION ALL`
+- `IS NULL`
+
+## Query Business Incluse
+
+Le query business sono state mantenute intenzionalmente semplici e spiegabili.
+
+Sono state progettate per rispondere a domande analitiche di base, come:
+
+- quali categorie prodotto generano vendite e profitto più alti;
+- quali regioni generano il profitto più alto o più basso;
+- come variano sconto medio, vendite e profitto per segmento cliente.
+
+Queste query forniscono un livello di validazione tramite SQL prima della costruzione della dashboard in Power BI.
 
 ## Note
 
-L'analisi SQL è volutamente focalizzata su query chiare, semplici e spiegabili, adatte a un portfolio per una posizione da Junior Data Analyst.
-
-Tecniche SQL più avanzate, come window functions, subquery e common table expressions, non sono state incluse in questa versione del progetto.
+L'analisi SQL è intenzionalmente focalizzata su query chiare e spiegabili, adatte a un portfolio Junior Data Analyst.

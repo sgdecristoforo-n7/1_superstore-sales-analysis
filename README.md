@@ -175,17 +175,17 @@ The dashboard are used to visualize:
 
 ### Screenshots:
 
-![Sales and Profit Overview](../powerbi/dashboard_screenshot/01_sales_and_profit_overview.jpg)
+![Sales and Profit Overview](powerbi/dashboard_screenshot/01_sales_and_profit_overview.jpg)
 
-![Discount and Profitability Analysis](../powerbi/dashboard_screenshot/02_discount_and_profitability_analysis.jpg)
+![Discount and Profitability Analysis](powerbi/dashboard_screenshot/02_discount_and_profitability_analysis.jpg)
 
 *The full dashboard is available here:*
 
-[Download the dashboard](../powerbi/superstore_sales_dashboard.pbix)
+[Download the dashboard](powerbi/superstore_sales_dashboard.pbix)
 
 *Available also as PDF:*
 
-[Download the dashboard PDF](../powerbi/dashboard_screenshot/superstore_sales_dashboard.pdf)
+[Download the dashboard PDF](powerbi/dashboard_screenshot/superstore_sales_dashboard.pdf)
 
 ## Notes
 

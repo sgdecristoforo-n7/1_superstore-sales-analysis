@@ -23,13 +23,23 @@ The first page provides a general overview of sales, profit, quantity, average d
 
 The second page focuses on discount levels, profitability, product margins and customer segments.
 
-## Dashboard Screenshot
+## Power BI Dashboard
 
-Dashboard screenshot available in:
+### Sales and Profit Overview
 
-```
-powerbi/dashboard_screenshot/superstore_sales_dashboard.pdf
-```
+![Sales and Profit Overview](../powerbi/dashboard_screenshot/01_sales_and_profit_overview.jpg)
+
+### Discount & Profitability Analysis
+
+![Discount and Profitability Analysis](../powerbi/dashboard_screenshot/02_discount_and_profitability_analysis.jpg)
+
+*The full dashboard is available here:*
+
+[Download the dashboard](../powerbi/superstore_sales_dashboard.pbix)
+
+*And also available as PDF:*
+
+[Download the dashboard PDF](../powerbi/dashboard_screenshot/superstore_sales_dashboard.pdf)
 
 ## Key Measures
 
@@ -180,13 +190,23 @@ La prima pagina fornisce una panoramica generale su vendite, profitto, quantità
 
 La seconda pagina si concentra su livelli di sconto, redditività, marginalità per categoria e segmenti cliente.
 
-## Screenshot della Dashboard
+## Power BI Dashboard
 
-Lo screenshot della dashboard è disponibile in:
+### Sales and Profit Overview
 
-```
-powerbi/dashboard_screenshot/superstore_sales_dashboard.pdf
-```
+![Sales and Profit Overview](../powerbi/dashboard_screenshot/01_sales_and_profit_overview.jpg)
+
+### Discount & Profitability Analysis
+
+![Discount and Profitability Analysis](../powerbi/dashboard_screenshot/02_discount_and_profitability_analysis.jpg)
+
+*La dashboard completa è disponibile qui:*
+
+[Download the dashboard](../powerbi/superstore_sales_dashboard.pbix)
+
+*Disponibile anche come PDF:*
+
+[Download the dashboard PDF](../powerbi/dashboard_screenshot/superstore_sales_dashboard.pdf)
 
 ## Misure Principali
 

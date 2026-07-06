@@ -173,6 +173,20 @@ The dashboard are used to visualize:
 * discount impact;
 * time-based sales and profit trends.
 
+### Screenshots:
+
+![Sales and Profit Overview](../powerbi/dashboard_screenshot/01_sales_and_profit_overview.jpg)
+
+![Discount and Profitability Analysis](../powerbi/dashboard_screenshot/02_discount_and_profitability_analysis.jpg)
+
+*The full dashboard is available here:*
+
+[Download the dashboard](../powerbi/superstore_sales_dashboard.pbix)
+
+*Available also as PDF:*
+
+[Download the dashboard PDF](../powerbi/dashboard_screenshot/superstore_sales_dashboard.pdf)
+
 ## Notes
 
 This project is intentionally focused on clear, explainable steps suitable for a Junior Data Analyst portfolio.
@@ -353,6 +367,20 @@ La dashboard serve a visualizzare:
 * performance dei segmenti cliente;
 * impatto degli sconti;
 * andamento temporale di vendite e profitto.
+
+### Screenshots:
+
+![Sales and Profit Overview](../powerbi/dashboard_screenshot/01_sales_and_profit_overview.jpg)
+
+![Discount and Profitability Analysis](../powerbi/dashboard_screenshot/02_discount_and_profitability_analysis.jpg)
+
+*La dashboard completa è disponibile qui:*
+
+[Download the dashboard](../powerbi/superstore_sales_dashboard.pbix)
+
+*Disponibile anche come PDF:*
+
+[Download the dashboard PDF](../powerbi/dashboard_screenshot/superstore_sales_dashboard.pdf)
 
 ## Note
 

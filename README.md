@@ -138,6 +138,12 @@ More details are available in:
 docs/data_model.md
 ```
 
+## Data Model / Relational Schema
+
+Design of the relational star schema used for the Power BI data model.
+
+![Relational Schema](docs/ER_Scheme.jpg)
+
 ## PostgreSQL and SQL Analysis
 
 The cleaned and modeled tables were exported as CSV files and imported into PostgreSQL.
@@ -332,6 +338,12 @@ Maggiori dettagli sono disponibili in:
 ```
 docs/data_model.md
 ```
+
+## Schema relazionale (ER):
+
+Realizzazione dello schema a stella relazionale utilizzato poi su power Bi
+
+![Schema Relazionale](docs/ER_Scheme.jpg)
 
 ## PostgreSQL e analisi SQL
 

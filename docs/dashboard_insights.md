@@ -134,13 +134,27 @@ Low discount still generates positive profit, but with a lower margin.
 Medium discount generates negative profit.
 High discount generates a significant loss.
 
-From the dashboard:
+From the dashboard it is possible to acknowledge:
 
-Discount Range          | Sales	    | Profit    | Profit Margin
-No discount	            | $1.06M	| $314.32K  |	  29.5%
-Low discount <=20%	    | $806.88K	| $95.75K	|     11.9%
-Medium discount <=40%	| $230.16K	| -$35.00K	|    -15.2%
-High discount	        | $125.93K	| -$96.13K	|    -76.3%
+Discount Range: No Discount
+Sales:          $1.06M
+Profit:         $314.32K
+Profit Margin:  29.5%
+
+Discount Range: Low discount <=20%
+Sales:          $806.88K
+Profit:         $95.75K
+Profit Margin:  11.9%
+
+Discount Range: Medium discount <=40%
+Sales:          $230.16K
+Profit:         -$35.00K
+Profit Margin:  -15.2%
+
+Discount Range: High discount
+Sales:          $125.93K
+Profit:         -$96.13K
+Profit Margin:  -76.3%
 
 This suggests that high discount levels are strongly associated with margin erosion.
 
@@ -301,13 +315,27 @@ Low discount genera ancora profitto positivo, ma con un margine più basso.
 Medium discount genera profitto negativo.
 High discount genera una perdita significativa.
 
-Dalla dashboard:
+Dalla dashboard e possibile notare che:
 
-Discount Range          | Sales	    | Profit    | Profit Margin
-No discount	            | $1.06M	| $314.32K  |	  29.5%
-Low discount <=20%	    | $806.88K	| $95.75K	|     11.9%
-Medium discount <=40%	| $230.16K	| -$35.00K	|    -15.2%
-High discount	        | $125.93K	| -$96.13K	|    -76.3%
+Discount Range: No Discount
+Sales:          $1.06M
+Profit:         $314.32K
+Profit Margin:  29.5%
+
+Discount Range: Low discount <=20%
+Sales:          $806.88K
+Profit:         $95.75K
+Profit Margin:  11.9%
+
+Discount Range: Medium discount <=40%
+Sales:          $230.16K
+Profit:         -$35.00K
+Profit Margin:  -15.2%
+
+Discount Range: High discount
+Sales:          $125.93K
+Profit:         -$96.13K
+Profit Margin:  -76.3%
 
 Questo suggerisce che gli sconti elevati siano fortemente associati all'erosione della marginalità.
 
